@@ -3,6 +3,7 @@
 let svgMap = document.getElementById('svg-map');
 let isPanning = false;
 let startX, startY, initialTranslateX = 0, initialTranslateY = 0, scale = 1;
+let initialDistance = 0;
 
 const visitedConcellos = new Set();
 const concellos = new Set();
@@ -44,7 +45,13 @@ function addConcello(name) {
         document.querySelectorAll(`#svg-map path[id="${name}"]`).forEach(path => {
             path.classList.add('selected');
         });
+        updateContadorConcellos(); // Actualizar el contador cuando se añade un concello
     }
+}
+
+function updateContadorConcellos() {
+    const contador = document.getElementById('contador-concellos');
+    contador.innerText = `${visitedConcellos.size}/313`;
 }
 
 // Funcionalidad de arrastre del mapa
@@ -86,6 +93,48 @@ svgMap.addEventListener('wheel', function (event) {
     svgMap.style.transform = `scale(${scale}) translate(${initialTranslateX}px, ${initialTranslateY}px)`;
 });
 
+// Eventos táctiles para dispositivos móviles
+svgMap.addEventListener('touchstart', function (event) {
+    if (event.touches.length === 2) {
+        // Gestos de pellizco (pinch)
+        initialDistance = getDistance(event.touches);
+        isPanning = false;
+    } else if (event.touches.length === 1) {
+        // Arrastre con un dedo
+        isPanning = true;
+        startX = event.touches[0].clientX;
+        startY = event.touches[0].clientY;
+        svgMap.style.cursor = 'grabbing';
+    }
+});
+
+svgMap.addEventListener('touchmove', function (event) {
+    if (event.touches.length === 2) {
+        // Gestionar el zoom con pellizco (pinch)
+        const newDistance = getDistance(event.touches);
+        const zoomFactor = 0.01; // Factor de zoom más suave
+        scale *= newDistance / initialDistance;
+        scale = Math.min(Math.max(scale, 1), 5); // Limitar el zoom entre 1x y 5x
+        initialDistance = newDistance;
+
+        svgMap.style.transform = `translate(${initialTranslateX}px, ${initialTranslateY}px) scale(${scale})`;
+    } else if (isPanning && event.touches.length === 1) {
+        // Gestionar el arrastre con un dedo
+        let translateX = initialTranslateX + (event.touches[0].clientX - startX);
+        let translateY = initialTranslateY + (event.touches[0].clientY - startY);
+        svgMap.style.transform = `translate(${translateX}px, ${translateY}px) scale(${scale})`;
+    }
+});
+
+svgMap.addEventListener('touchend', function (event) {
+    isPanning = false;
+    if (event.touches.length < 2) {
+        initialTranslateX += (event.changedTouches[0].clientX - startX);
+        initialTranslateY += (event.changedTouches[0].clientY - startY);
+        svgMap.style.cursor = 'grab';
+    }
+});
+
 // Cargar el mapa SVG e inicializar
 fetch('svg/mapa-galicia-nombres.svg')
     .then(response => response.text())
@@ -103,6 +152,7 @@ fetch('svg/mapa-galicia-nombres.svg')
 
         // Añadir tooltips después de cargar el SVG
         addTooltips();
+        updateContadorConcellos(); // Inicia el contador en 0
     })
     .catch(error => console.error('Error al cargar el SVG:', error));
 
@@ -138,34 +188,7 @@ function addTooltips() {
     });
 }
 
-function addConcello(name) {
-    if (!visitedConcellos.has(name)) {
-        visitedConcellos.add(name);
-        document.querySelectorAll(`#svg-map path[id="${name}"]`).forEach(path => {
-            path.classList.add('selected');
-        });
-        updateContadorConcellos(); // Actualizar el contador cuando se añade un concello
-    }
+function getDistance(touches) {
+    return Math.sqrt(Math.pow(touches[0].clientX - touches[1].clientX, 2) +
+                     Math.pow(touches[0].clientY - touches[1].clientY, 2));
 }
-
-function updateContadorConcellos() {
-    const contador = document.getElementById('contador-concellos');
-    contador.innerText = `${visitedConcellos.size}/313 concellos seleccionados`;
-}
-
-fetch('svg/mapa-galicia-nombres.svg')
-    .then(response => response.text())
-    .then(data => {
-        svgMap.innerHTML = data;
-
-        const bbox = svgMap.getBBox();
-        svgMap.setAttribute("viewBox", `${bbox.x} ${bbox.y} ${bbox.width} ${bbox.height}`);
-
-        document.querySelectorAll('#svg-map path').forEach(path => {
-            concellos.add(path.id);
-        });
-
-        addTooltips();
-        updateContadorConcellos(); // Inicia el contador en 0
-    })
-    .catch(error => console.error('Error al cargar el SVG:', error));

@@ -15,7 +15,7 @@ body, html {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: #f4f4f9;
+    background-color: #c3ddec;
     overflow: hidden;
     touch-action: none;
 }
@@ -29,7 +29,7 @@ body, html {
 }
 
 .selected {
-    fill: #c2a548 !important; /* Cambia esto al color que deseas para el relleno de los concellos seleccionados */
+    fill: #d89339 !important; /* Cambia esto al color que deseas para el relleno de los concellos seleccionados */
 }
 
 #search-container {
