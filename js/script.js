@@ -36,9 +36,22 @@ document.getElementById('concellos-search').addEventListener('input', function (
 });
 
 function addConcello(name) {
-    if (visitedConcellos.has(name)) {
-        alert(`${name} ya figura`);
-        return;
+    const normalizedName = normalizeString(name);
+
+    // Excepciones para nombres que comienzan similar pero no son exactamente iguales
+    if (visitedConcellos.size > 0) {
+        for (const visited of visitedConcellos) {
+            const normalizedVisited = normalizeString(visited);
+            if (
+                (normalizedVisited.startsWith(normalizedName) && normalizedVisited.length > normalizedName.length) ||
+                (normalizedName.startsWith(normalizedVisited) && normalizedName.length > normalizedVisited.length)
+            ) {
+                continue; // No bloquear la selección si uno es un prefijo del otro
+            } else if (normalizedVisited === normalizedName) {
+                alert(`${name} ya figura`);
+                return;
+            }
+        }
     }
 
     visitedConcellos.add(name);
@@ -123,9 +136,7 @@ svgMap.addEventListener('touchstart', function (event) {
     if (event.touches.length === 2) {
         initialDistance = getDistance(event.touches);
         isPanning = false;
-   
-
- } else if (event.touches.length === 1) {
+    } else if (event.touches.length === 1) {
         isPanning = true;
         startX = event.touches[0].clientX;
         startY = event.touches[0].clientY;
