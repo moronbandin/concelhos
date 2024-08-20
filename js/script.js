@@ -6,7 +6,7 @@ let startX, startY, initialTranslateX = 0, initialTranslateY = 0, scale = 1;
 let initialDistance = 0;
 
 const visitedConcellos = new Set();
-const concellos = new Set();
+let concellos = new Set();
 
 function normalizeString(str) {
     return str.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase().replace(/^(o\s|a\s)/, '');
@@ -38,28 +38,19 @@ document.getElementById('concellos-search').addEventListener('input', function (
 function addConcello(name) {
     const normalizedName = normalizeString(name);
 
-    // Excepciones para nombres que comienzan similar pero no son exactamente iguales
-    if (visitedConcellos.size > 0) {
-        for (const visited of visitedConcellos) {
-            const normalizedVisited = normalizeString(visited);
-            if (
-                (normalizedVisited.startsWith(normalizedName) && normalizedVisited.length > normalizedName.length) ||
-                (normalizedName.startsWith(normalizedVisited) && normalizedName.length > normalizedVisited.length)
-            ) {
-                continue; // No bloquear la selección si uno es un prefijo del otro
-            } else if (normalizedVisited === normalizedName) {
-                alert(`${name} ya figura`);
-                return;
-            }
-        }
+    // Si el concello no está en la lista de visitados, se selecciona y se elimina de la lista disponible
+    if (!visitedConcellos.has(name)) {
+        visitedConcellos.add(name);
+        concellos.delete(name);  // Eliminar el concello de la lista de disponibles
+
+        document.querySelectorAll(`#svg-map path[id="${name}"]`).forEach(path => {
+            path.classList.add('selected');
+        });
+
+        updateContadorConcellos();
+    } else {
+        alert(`${name} ya figura`);
     }
-
-    visitedConcellos.add(name);
-    document.querySelectorAll(`#svg-map path[id="${name}"]`).forEach(path => {
-        path.classList.add('selected');
-    });
-
-    updateContadorConcellos();
 }
 
 function updateContadorConcellos() {
