@@ -1,5 +1,3 @@
-// script.js
-
 let svgMap = document.getElementById('svg-map');
 let isPanning = false;
 let startX, startY, initialTranslateX = 0, initialTranslateY = 0, scale = 1;
@@ -38,10 +36,9 @@ document.getElementById('concellos-search').addEventListener('input', function (
 function addConcello(name) {
     const normalizedName = normalizeString(name);
 
-    // Si el concello no está en la lista de visitados, se selecciona y se elimina de la lista disponible
     if (!visitedConcellos.has(name)) {
         visitedConcellos.add(name);
-        concellos.delete(name);  // Eliminar el concello de la lista de disponibles
+        concellos.delete(name);
 
         document.querySelectorAll(`#svg-map path[id="${name}"]`).forEach(path => {
             path.classList.add('selected');
@@ -56,7 +53,48 @@ function addConcello(name) {
 function updateContadorConcellos() {
     const contador = document.getElementById('contador-concellos');
     contador.innerText = `${visitedConcellos.size}/313`;
+    updateConcelloList();
 }
+
+function updateConcelloList() {
+    const listContainer = document.getElementById('concellos-list');
+    listContainer.innerHTML = ''; // Limpiar la lista
+
+    const sortedConcellos = Array.from(concellos).concat(Array.from(visitedConcellos)).sort((a, b) => normalizeString(a).localeCompare(normalizeString(b)));
+
+    sortedConcellos.forEach(concello => {
+        const listItem = document.createElement('li');
+
+        if (visitedConcellos.has(concello)) {
+            listItem.innerText = concello;  // Mostrar el concello adivinado
+            listItem.classList.add('adivinado');
+        } else if (concellos.has(concello)) {
+            listItem.innerText = " ";  // Espacio para los no adivinados
+            listItem.classList.add('no-adivinado');
+        }
+
+        listContainer.appendChild(listItem);
+    });
+}
+
+// Mostrar y ocultar la lista de concellos
+document.getElementById('contador-concellos').addEventListener('click', function () {
+    const listContainer = document.getElementById('concellos-list-container');
+    listContainer.classList.toggle('hidden');
+    listContainer.style.display = listContainer.style.display === 'none' ? 'block' : 'none';
+});
+
+// Ocultar la lista si se hace clic fuera de ella
+document.addEventListener('click', function (event) {
+    const listContainer = document.getElementById('concellos-list-container');
+    const contadorConcellos = document.getElementById('contador-concellos');
+    
+    if (!listContainer.contains(event.target) && !contadorConcellos.contains(event.target)) {
+        listContainer.classList.add('hidden');
+        listContainer.style.display = 'none';
+    }
+});
+
 
 // Definir los límites para el desplazamiento
 function getTranslationLimits() {
@@ -71,11 +109,20 @@ function getTranslationLimits() {
     const maxY = (mapHeight - containerHeight) / 2;
 
     return {
-        minX: -maxX,
-        maxX: maxX,
-        minY: -maxY,
-        maxY: maxY
+        minX: Math.min(-maxX, 0),
+        maxX: Math.max(maxX, 0),
+        minY: Math.min(-maxY, 0),
+        maxY: Math.max(maxY, 0)
     };
+}
+
+// Aplicar la transformación con la escala y la traslación correctas
+function applyTransform() {
+    const limits = getTranslationLimits();
+    initialTranslateX = Math.min(Math.max(initialTranslateX, limits.minX), limits.maxX);
+    initialTranslateY = Math.min(Math.max(initialTranslateY, limits.minY), limits.maxY);
+
+    svgMap.style.transform = `translate(${initialTranslateX}px, ${initialTranslateY}px) scale(${scale})`;
 }
 
 // Funcionalidad de arrastre del mapa
@@ -86,11 +133,12 @@ svgMap.addEventListener('mousedown', function (event) {
     svgMap.style.cursor = 'grabbing';
 });
 
-svgMap.addEventListener('mouseup', function () {
+svgMap.addEventListener('mouseup', function (event) {
     isPanning = false;
     initialTranslateX += event.clientX - startX;
     initialTranslateY += event.clientY - startY;
     svgMap.style.cursor = 'grab';
+    applyTransform();
 });
 
 svgMap.addEventListener('mouseleave', function () {
@@ -100,13 +148,9 @@ svgMap.addEventListener('mouseleave', function () {
 
 svgMap.addEventListener('mousemove', function (event) {
     if (isPanning) {
-        let translateX = initialTranslateX + (event.clientX - startX);
-        let translateY = initialTranslateY + (event.clientY - startY);
-
-        const limits = getTranslationLimits();
-        translateX = Math.min(Math.max(translateX, limits.minX), limits.maxX);
-        translateY = Math.min(Math.max(translateY, limits.minY), limits.maxY);
-
+        const translateX = initialTranslateX + (event.clientX - startX);
+        const translateY = initialTranslateY + (event.clientY - startY);
+        
         svgMap.style.transform = `translate(${translateX}px, ${translateY}px) scale(${scale})`;
     }
 });
@@ -114,12 +158,23 @@ svgMap.addEventListener('mousemove', function (event) {
 svgMap.addEventListener('wheel', function (event) {
     event.preventDefault();
     const zoomFactor = 0.1;
+    const oldScale = scale;
+
     if (event.deltaY < 0) {
         scale = Math.min(scale + zoomFactor, 5);  // Zoom in
     } else {
         scale = Math.max(scale - zoomFactor, 1);  // Zoom out
     }
-    svgMap.style.transform = `scale(${scale}) translate(${initialTranslateX}px, ${initialTranslateY}px)`;
+
+    // Ajustar la posición de la vista para mantener el foco del zoom en el mismo lugar
+    const rect = svgMap.getBoundingClientRect();
+    const mouseX = event.clientX - rect.left;
+    const mouseY = event.clientY - rect.top;
+
+    initialTranslateX -= (mouseX / oldScale) * (scale - oldScale);
+    initialTranslateY -= (mouseY / oldScale) * (scale - oldScale);
+
+    applyTransform();
 });
 
 // Eventos táctiles para dispositivos móviles
@@ -139,19 +194,23 @@ svgMap.addEventListener('touchmove', function (event) {
     if (event.touches.length === 2) {
         const newDistance = getDistance(event.touches);
         const zoomFactor = 0.01;
+        const oldScale = scale;
         scale *= newDistance / initialDistance;
         scale = Math.min(Math.max(scale, 1), 5);
         initialDistance = newDistance;
 
-        svgMap.style.transform = `translate(${initialTranslateX}px, ${initialTranslateY}px) scale(${scale})`;
+        const rect = svgMap.getBoundingClientRect();
+        const centerX = rect.left + rect.width / 2;
+        const centerY = rect.top + rect.height / 2;
+
+        initialTranslateX -= (centerX / oldScale) * (scale - oldScale);
+        initialTranslateY -= (centerY / oldScale) * (scale - oldScale);
+
+        applyTransform();
     } else if (isPanning && event.touches.length === 1) {
-        let translateX = initialTranslateX + (event.touches[0].clientX - startX);
-        let translateY = initialTranslateY + (event.touches[0].clientY - startY);
-
-        const limits = getTranslationLimits();
-        translateX = Math.min(Math.max(translateX, limits.minX), limits.maxX);
-        translateY = Math.min(Math.max(translateY, limits.minY), limits.maxY);
-
+        const translateX = initialTranslateX + (event.touches[0].clientX - startX);
+        const translateY = initialTranslateY + (event.touches[0].clientY - startY);
+        
         svgMap.style.transform = `translate(${translateX}px, ${translateY}px) scale(${scale})`;
     }
 });
@@ -162,6 +221,7 @@ svgMap.addEventListener('touchend', function (event) {
         initialTranslateX += (event.changedTouches[0].clientX - startX);
         initialTranslateY += (event.changedTouches[0].clientY - startY);
         svgMap.style.cursor = 'grab';
+        applyTransform();
     }
 });
 
