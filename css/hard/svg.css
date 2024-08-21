@@ -8,18 +8,18 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: #ffffff;
+    background-color: #ebecec;
     overflow: hidden;
     touch-action: none;
 }
 
 .svg-incorrect {
-    fill: #ffffff;           /* Color de relleno por defecto */
-    stroke: #fafafa;         /* Color del borde por defecto */
+    fill: #ebecec;           /* Color de relleno por defecto */
+    stroke: #ebecec;         /* Color del borde por defecto */
     stroke-width: 2150.964;         /* Ancho del borde por defecto */
     stroke-opacity: 1;       /* Opacidad del borde */
 }
 
 .selected {
-    fill: #4577b9 !important; /* Cambia esto al color que deseas para el relleno de los concellos seleccionados */
+    fill: #e6a545 !important; /* Cambia esto al color que deseas para el relleno de los concellos seleccionados */
 }
