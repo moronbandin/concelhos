@@ -672,7 +672,7 @@
         "capital": "A Chan",
         "comarca": "Tabeirós - Terra de Montes",
         "provincia": "Pontevedra",
-        "escudo": null
+        "escudos": ["escudos/Cerdedo.svg", "escudos/Cotobade.svg"]
     },
     {
         "nombre": "Cerdido",

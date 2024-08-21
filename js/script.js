@@ -242,7 +242,7 @@ fetch('svg/map.svg')
         svgMap.innerHTML = data;
 
         const bbox = svgMap.getBBox();
-        svgMap.setAttribute("viewBox", `${bbox.x} ${bbox.y} ${bbox.width} ${bbox.height}`);
+        svgMap.setAttribute("viewBox", `${bbox.x} ${bbox.y} ${bbox.width + 50} ${bbox.height + 50}`);
 
         document.querySelectorAll('#svg-map path').forEach(path => {
             concellos.add(path.id);
@@ -252,53 +252,65 @@ fetch('svg/map.svg')
         updateContadorConcellos();
     })
     .catch(error => console.error('Error al cargar el SVG:', error));
-    function addTooltips() {
-        document.querySelectorAll('#svg-map path').forEach(path => {
-            path.addEventListener('mouseenter', function (e) {
-                const concelloName = this.getAttribute('id');
-                const normalizedName = normalizeString(concelloName);
-    
-                // Verificar si el concello ha sido adivinado y si existe en los datos
-                if (visitedConcellos.has(concelloName) && concelloData[normalizedName]) {
-                    const data = concelloData[normalizedName];
-    
-                    const tooltip = document.createElement('div');
-                    tooltip.id = 'tooltip';
-                    tooltip.style.position = 'absolute';
-                    tooltip.style.backgroundColor = '#333';
-                    tooltip.style.color = '#fff';
-                    tooltip.style.padding = '10px';
-                    tooltip.style.borderRadius = '5px';
-                    tooltip.style.pointerEvents = 'none';
-                    tooltip.style.zIndex = '1000';
-    
-                    // Construir el contenido del tooltip
-                    tooltip.innerHTML = `
-                        <strong>${data.nombre}</strong><br>
-                        ${data.capital ? `Capital: ${data.capital}<br>` : ''}
-                        Habitantes: ${data.habitantes}<br>
-                        Superficie: ${data.superficie} km²<br>
-                        Comarca: ${data.comarca}<br>
-                        Provincia: ${data.provincia}<br>
-                        <img src="${data.escudo}" alt="Escudo de ${data.nombre}" style="width:50px;height:auto;margin-top:5px;">
-                    `;
-                    document.body.appendChild(tooltip);
-    
-                    // Posicionar el tooltip
-                    const rect = e.target.getBoundingClientRect();
-                    tooltip.style.left = `${rect.left + window.pageXOffset + rect.width / 2}px`;
-                    tooltip.style.top = `${rect.top + window.pageYOffset - rect.height / 2}px`;
+
+function addTooltips() {
+    document.querySelectorAll('#svg-map path').forEach(path => {
+        path.addEventListener('mouseenter', function (e) {
+            const concelloName = this.getAttribute('id');
+            const normalizedName = normalizeString(concelloName);
+
+            // Verificar si el concello ha sido adivinado y si existe en los datos
+            if (visitedConcellos.has(concelloName) && concelloData[normalizedName]) {
+                const data = concelloData[normalizedName];
+
+                const tooltip = document.createElement('div');
+                tooltip.id = 'tooltip';
+                tooltip.style.position = 'absolute';
+                tooltip.style.backgroundColor = '#333';
+                tooltip.style.color = '#fff';
+                tooltip.style.padding = '10px';
+                tooltip.style.borderRadius = '5px';
+                tooltip.style.pointerEvents = 'none';
+                tooltip.style.zIndex = '1000';
+
+                // Manejar múltiples escudos
+                let escudosHtml = '';
+                if (Array.isArray(data.escudos)) {
+                    data.escudos.forEach(escudoPath => {
+                        escudosHtml += `<img src="${escudoPath}" alt="Escudo de ${data.nombre}" style="width:50px;height:auto;margin-top:5px;"> `;
+                    });
+                } else if (data.escudo) {
+                    escudosHtml = `<img src="${data.escudo}" alt="Escudo de ${data.nombre}" style="width:50px;height:auto;margin-top:5px;">`;
                 }
-            });
-    
-            path.addEventListener('mouseleave', function () {
-                const tooltip = document.getElementById('tooltip');
-                if (tooltip) {
-                    tooltip.remove();
-                }
-            });
+
+                // Construir el contenido del tooltip
+                tooltip.innerHTML = `
+                    <strong>${data.nombre}</strong><br>
+                    ${data.capital ? `Capital: ${data.capital}<br>` : ''}
+                    Habitantes: ${data.habitantes}<br>
+                    Superficie: ${data.superficie} km²<br>
+                    Comarca: ${data.comarca}<br>
+                    Provincia: ${data.provincia}<br>
+                    ${escudosHtml}
+                `;
+                document.body.appendChild(tooltip);
+
+                // Posicionar el tooltip
+                const rect = e.target.getBoundingClientRect();
+                tooltip.style.left = `${rect.left + window.pageXOffset + rect.width / 2}px`;
+                tooltip.style.top = `${rect.top + window.pageYOffset - rect.height / 2}px`;
+            }
         });
-    }
+
+        path.addEventListener('mouseleave', function () {
+            const tooltip = document.getElementById('tooltip');
+            if (tooltip) {
+                tooltip.remove();
+            }
+        });
+    });
+}
+
 
 function getDistance(touches) {
     return Math.sqrt(Math.pow(touches[0].clientX - touches[1].clientX, 2) +
