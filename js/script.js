@@ -236,7 +236,7 @@ svgMap.addEventListener('touchend', function (event) {
 });
 
 // Cargar el mapa SVG e inicializar
-fetch('svg/map.svg')
+fetch('svg/map_cleaned.svg')
     .then(response => response.text())
     .then(data => {
         svgMap.innerHTML = data;
