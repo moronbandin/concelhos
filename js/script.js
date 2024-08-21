@@ -335,7 +335,7 @@ function getDistance(touches) {
 
 // Cargar la dificultad por defecto (por ejemplo, fácil)
 window.addEventListener('load', function() {
-    loadDifficulty('easy');
+    loadDifficulty('hard');
 });
 
 // Escuchar los clics en los botones de dificultad
