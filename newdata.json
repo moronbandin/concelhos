@@ -1,0 +1,2810 @@
+[
+    {
+        "nombre": "Abadín",
+        "habitantes": 2490,
+        "superficie": 196.0,
+        "capital": "Abadín",
+        "comarca": "A Terra Chá",
+        "provincia": "Lugo",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Escudo_de_Abad%C3%ADn.svg"
+    },
+    {
+        "nombre": "Abegondo",
+        "habitantes": 5467,
+        "superficie": 83.9,
+        "capital": "San Marco",
+        "comarca": "A Coruña",
+        "provincia": "A Coruña",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Escudo_de_Abegondo.svg"
+    },
+    {
+        "nombre": "Agolada",
+        "habitantes": 2431,
+        "superficie": 147.8,
+        "capital": "Agolada",
+        "comarca": "O Deza",
+        "provincia": "Pontevedra",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Escudo_de_Agolada.svg"
+    },
+    {
+        "nombre": "Alfoz",
+        "habitantes": 1782,
+        "superficie": 77.5,
+        "capital": "A Seara",
+        "comarca": "A Mariña Central",
+        "provincia": "Lugo",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Escudo_de_Alfoz_(1994).svg"
+    },
+    {
+        "nombre": "Allariz",
+        "habitantes": 6026,
+        "superficie": 86.0,
+        "capital": "Allariz",
+        "comarca": "Allariz - Maceda",
+        "provincia": "Ourense",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Allariz.svg"
+    },
+    {
+        "nombre": "Ames",
+        "habitantes": 30835,
+        "superficie": 80.0,
+        "capital": "Bertamiráns",
+        "comarca": "Santiago",
+        "provincia": "A Coruña",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Ames.svg"
+    },
+    {
+        "nombre": "Amoeiro",
+        "habitantes": 2231,
+        "superficie": 39.7,
+        "capital": "Amoeiro",
+        "comarca": "Ourense",
+        "provincia": "Ourense",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Escudo_de_Amoeiro.svg"
+    },
+    {
+        "nombre": "Antas de Ulla",
+        "habitantes": 2059,
+        "superficie": 103.6,
+        "capital": "Antas de Ulla",
+        "comarca": "A Ulloa",
+        "provincia": "Lugo",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Escudo_de_Antas_de_Ulla.svg"
+    },
+    {
+        "nombre": "Aranga",
+        "habitantes": 1935,
+        "superficie": 119.6,
+        "capital": "Ponte Aranga",
+        "comarca": "Betanzos",
+        "provincia": "A Coruña",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Aranga.svg"
+    },
+    {
+        "nombre": "Arbo",
+        "habitantes": 2711,
+        "superficie": 42.9,
+        "capital": "Arbo",
+        "comarca": "A Paradanta",
+        "provincia": "Pontevedra",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Escudo_de_Arbo.svg"
+    },
+    {
+        "nombre": "Ares",
+        "habitantes": 5658,
+        "superficie": 18.3,
+        "capital": "Ares",
+        "comarca": "Ferrol",
+        "provincia": "A Coruña",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Escudo_de_Ares.svg"
+    },
+    {
+        "nombre": "A Arnoia",
+        "habitantes": 1013,
+        "superficie": 20.7,
+        "capital": "Outeiro Cruz",
+        "comarca": "O Ribeiro",
+        "provincia": "Ourense",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Escudo_de_Arnoia.svg"
+    },
+    {
+        "nombre": "Arteixo",
+        "habitantes": 31534,
+        "superficie": 93.4,
+        "capital": "Arteixo",
+        "comarca": "A Coruña",
+        "provincia": "A Coruña",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Arteixo.svg"
+    },
+    {
+        "nombre": "Arzúa",
+        "habitantes": 6123,
+        "superficie": 155.4,
+        "capital": "Arzúa",
+        "comarca": "Arzúa",
+        "provincia": "A Coruña",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Arz%C3%BAa.svg"
+    },
+    {
+        "nombre": "Avión",
+        "habitantes": 1860,
+        "superficie": 120.5,
+        "capital": "San Xusto",
+        "comarca": "O Ribeiro",
+        "provincia": "Ourense",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Escudo_de_Avi%C3%B3n.svg"
+    },
+    {
+        "nombre": "Baiona",
+        "habitantes": 12169,
+        "superficie": 34.5,
+        "capital": "Baiona",
+        "comarca": "Vigo",
+        "provincia": "Pontevedra",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Coat_of_Arms_of_Baiona.svg"
+    },
+    {
+        "nombre": "Baleira",
+        "habitantes": 1296,
+        "superficie": 168.8,
+        "capital": "O Cádavo",
+        "comarca": "A Fonsagrada",
+        "provincia": "Lugo",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Escudo_de_Baleira.svg"
+    },
+    {
+        "nombre": "Baltar",
+        "habitantes": 957,
+        "superficie": 94.0,
+        "capital": "Baltar",
+        "comarca": "A Limia",
+        "provincia": "Ourense",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Escudo_de_Baltar.svg"
+    },
+    {
+        "nombre": "Bande",
+        "habitantes": 1618,
+        "superficie": 99.0,
+        "capital": "Bande",
+        "comarca": "A Baixa Limia",
+        "provincia": "Ourense",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Escudo_de_Bande.svg"
+    },
+    {
+        "nombre": "A Baña",
+        "habitantes": 3541,
+        "superficie": 98.0,
+        "capital": "San Vicenzo",
+        "comarca": "A Barcala",
+        "provincia": "A Coruña",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Escudo_de_A_Ba%C3%B1a.svg"
+    },
+    {
+        "nombre": "Baños de Molgas",
+        "habitantes": 1623,
+        "superficie": 67.6,
+        "capital": "Baños de Molgas",
+        "comarca": "Allariz - Maceda",
+        "provincia": "Ourense",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Ba%C3%B1os_de_Molgas.svg"
+    },
+    {
+        "nombre": "Baralla",
+        "habitantes": 2630,
+        "superficie": 141.2,
+        "capital": "Baralla",
+        "comarca": "Os Ancares",
+        "provincia": "Lugo",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Escudo_de_Baralla.svg"
+    },
+    {
+        "nombre": "Barbadás",
+        "habitantes": 10791,
+        "superficie": 30.2,
+        "capital": "Barbadás",
+        "comarca": "Ourense",
+        "provincia": "Ourense",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Escudo_de_Barbad%C3%A1s.svg"
+    },
+    {
+        "nombre": "O Barco de Valdeorras",
+        "habitantes": 13581,
+        "superficie": 85.7,
+        "capital": "O Barco",
+        "comarca": "Valdeorras",
+        "provincia": "Ourense",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Escudo_de_O_Barco_de_Valdeorras.svg"
+    },
+    {
+        "nombre": "Barreiros",
+        "habitantes": 2948,
+        "superficie": 72.4,
+        "capital": "San Cosme",
+        "comarca": "A Mariña Oriental",
+        "provincia": "Lugo",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Escudo_de_Barreiros.svg"
+    },
+    {
+        "nombre": "Barro",
+        "habitantes": 3699,
+        "superficie": 37.6,
+        "capital": "Santo Antoniño",
+        "comarca": "Pontevedra",
+        "provincia": "Pontevedra",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Barro.svg"
+    },
+    {
+        "nombre": "Beade",
+        "habitantes": 411,
+        "superficie": 6.4,
+        "capital": "Beade",
+        "comarca": "O Ribeiro",
+        "provincia": "Ourense",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Beade.svg"
+    },
+    {
+        "nombre": "Beariz",
+        "habitantes": 982,
+        "superficie": 56.0,
+        "capital": "Beariz",
+        "comarca": "O Carballiño",
+        "provincia": "Ourense",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Beariz.svg"
+    },
+    {
+        "nombre": "Becerreá",
+        "habitantes": 2856,
+        "superficie": 172.1,
+        "capital": "Becerreá",
+        "comarca": "Os Ancares",
+        "provincia": "Lugo",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Becerre%C3%A1.svg"
+    },
+    {
+        "nombre": "Begonte",
+        "habitantes": 3071,
+        "superficie": 126.8,
+        "capital": "Begonte",
+        "comarca": "A Terra Chá",
+        "provincia": "Lugo",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Escudo_de_Begonte.svg"
+    },
+    {
+        "nombre": "Bergondo",
+        "habitantes": 6623,
+        "superficie": 32.7,
+        "capital": "Carrio",
+        "comarca": "A Coruña",
+        "provincia": "A Coruña",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Bergondo.svg"
+    },
+    {
+        "nombre": "Betanzos",
+        "habitantes": 12941,
+        "superficie": 24.2,
+        "capital": "Betanzos",
+        "comarca": "Betanzos",
+        "provincia": "A Coruña",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Escudo_de_Betanzos_(2022).svg"
+    },
+    {
+        "nombre": "Os Blancos",
+        "habitantes": 812,
+        "superficie": 47.6,
+        "capital": "Os Blancos",
+        "comarca": "A Limia",
+        "provincia": "Ourense",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Escudo_de_Os_Blancos_(Ourense).svg"
+    },
+    {
+        "nombre": "Boborás",
+        "habitantes": 2375,
+        "superficie": 87.8,
+        "capital": "Boborás",
+        "comarca": "O Carballiño",
+        "provincia": "Ourense",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Bobor%C3%A1s.svg"
+    },
+    {
+        "nombre": "Boimorto",
+        "habitantes": 2040,
+        "superficie": 82.4,
+        "capital": "Vilanova",
+        "comarca": "Arzúa",
+        "provincia": "A Coruña",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Boimorto.svg"
+    },
+    {
+        "nombre": "Boiro",
+        "habitantes": 18885,
+        "superficie": 86.6,
+        "capital": "Boiro",
+        "comarca": "A Barbanza",
+        "provincia": "A Coruña",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Boiro.svg"
+    },
+    {
+        "nombre": "A Bola",
+        "habitantes": 1251,
+        "superficie": 34.9,
+        "capital": "Campo de Veiga",
+        "comarca": "A Terra de Celanova",
+        "provincia": "Ourense",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/A_Bola.svg"
+    },
+    {
+        "nombre": "O Bolo",
+        "habitantes": 938,
+        "superficie": 91.2,
+        "capital": "O Bolo",
+        "comarca": "Valdeorras",
+        "provincia": "Ourense",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Coats_of_arms_of_None.svg"
+    },
+    {
+        "nombre": "Boqueixón",
+        "habitantes": 4242,
+        "superficie": 73.2,
+        "capital": "O Forte",
+        "comarca": "Santiago",
+        "provincia": "A Coruña",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Escudo_de_Boqueix%C3%B3n.svg"
+    },
+    {
+        "nombre": "Bóveda",
+        "habitantes": 1527,
+        "superficie": 91.1,
+        "capital": "Bóveda",
+        "comarca": "Terra de Lemos",
+        "provincia": "Lugo",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Escudo_de_B%C3%B3veda.svg"
+    },
+    {
+        "nombre": "Brión",
+        "habitantes": 7699,
+        "superficie": 74.9,
+        "capital": "Pedrouzos",
+        "comarca": "Santiago",
+        "provincia": "A Coruña",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Coat_of_Arms_of_Bri%C3%B3n.svg"
+    },
+    {
+        "nombre": "Bueu",
+        "habitantes": 12145,
+        "superficie": 30.8,
+        "capital": "Bueu",
+        "comarca": "O Morrazo",
+        "provincia": "Pontevedra",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Coat_of_Arms_of_Bueu.svg"
+    },
+    {
+        "nombre": "Burela",
+        "habitantes": 9524,
+        "superficie": 7.3,
+        "capital": "Burela",
+        "comarca": "A Mariña Central",
+        "provincia": "Lugo",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Coat_of_arms_of_Burela.svg"
+    },
+    {
+        "nombre": "Cabana",
+        "habitantes": 4347,
+        "superficie": 99.8,
+        "capital": "A Carballa",
+        "comarca": "Bergantiños",
+        "provincia": "A Coruña",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Cabana_de_Berganti%C3%B1os.svg"
+    },
+    {
+        "nombre": "Cabanas",
+        "habitantes": 3314,
+        "superficie": 30.3,
+        "capital": "Cabanas",
+        "comarca": "O Eume",
+        "provincia": "A Coruña",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Escudo_de_Cabanas.svg"
+    },
+    {
+        "nombre": "Caldas de Reis",
+        "habitantes": 9825,
+        "superficie": 68.2,
+        "capital": "Caldas de Reis",
+        "comarca": "Caldas",
+        "provincia": "Pontevedra",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Caldas_de_Reis.svg"
+    },
+    {
+        "nombre": "Calvos de Randín",
+        "habitantes": 818,
+        "superficie": 97.7,
+        "capital": "Calvos",
+        "comarca": "A Limia",
+        "provincia": "Ourense",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Escudo_de_Calvos_de_Rand%C3%ADn_2002.svg"
+    },
+    {
+        "nombre": "Camariñas",
+        "habitantes": 5419,
+        "superficie": 51.9,
+        "capital": "Camariñas",
+        "comarca": "A Terra de Soneira",
+        "provincia": "A Coruña",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Escudo_de_Camari%C3%B1as_(1966).svg"
+    },
+    {
+        "nombre": "Cambados",
+        "habitantes": 13900,
+        "superficie": 23.4,
+        "capital": "Cambados",
+        "comarca": "O Salnés",
+        "provincia": "Pontevedra",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Escudo_de_Cambados.svg"
+    },
+    {
+        "nombre": "Cambre",
+        "habitantes": 24348,
+        "superficie": 40.7,
+        "capital": "Cambre",
+        "comarca": "A Coruña",
+        "provincia": "A Coruña",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Coat_of_Arms_of_Cambre.svg"
+    },
+    {
+        "nombre": "Campo Lameiro",
+        "habitantes": 1867,
+        "superficie": 63.8,
+        "capital": "A Lagoa",
+        "comarca": "Pontevedra",
+        "provincia": "Pontevedra",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/CampoLameiro.svg"
+    },
+    {
+        "nombre": "Cangas",
+        "habitantes": 26490,
+        "superficie": 38.1,
+        "capital": "Cangas",
+        "comarca": "O Morrazo",
+        "provincia": "Pontevedra",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/EscudoCangasMorrazo.svg"
+    },
+    {
+        "nombre": "A Cañiza",
+        "habitantes": 5233,
+        "superficie": 108.1,
+        "capital": "A Cañiza",
+        "comarca": "A Paradanta",
+        "provincia": "Pontevedra",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Escudo_de_A_Ca%C3%B1iza.svg"
+    },
+    {
+        "nombre": "A Capela",
+        "habitantes": 1247,
+        "superficie": 58.0,
+        "capital": "As Neves",
+        "comarca": "O Eume",
+        "provincia": "A Coruña",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Escudo_de_A_Capela.svg"
+    },
+    {
+        "nombre": "Carballeda de Avia",
+        "habitantes": 1356,
+        "superficie": 47.0,
+        "capital": "Carballeda de Avia",
+        "comarca": "O Ribeiro",
+        "provincia": "Ourense",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Escudo_de_Carballeda_de_Avia.svg"
+    },
+    {
+        "nombre": "Carballeda de Valdeorras",
+        "habitantes": 1623,
+        "superficie": 222.7,
+        "capital": "Sobradelo",
+        "comarca": "Valdeorras",
+        "provincia": "Ourense",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Coats_of_arms_of_None.svg"
+    },
+    {
+        "nombre": "Carballedo",
+        "habitantes": 2266,
+        "superficie": 138.8,
+        "capital": "A Barrela",
+        "comarca": "Chantada",
+        "provincia": "Lugo",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Escudo_de_Carballedo.svg"
+    },
+    {
+        "nombre": "O Carballiño",
+        "habitantes": 13854,
+        "superficie": 54.4,
+        "capital": "O Carballiño",
+        "comarca": "O Carballiño",
+        "provincia": "Ourense",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Coat_of_Arms_of_Carballino.svg"
+    },
+    {
+        "nombre": "Carballo",
+        "habitantes": 31195,
+        "superficie": 186.8,
+        "capital": "Carballo",
+        "comarca": "Bergantiños",
+        "provincia": "A Coruña",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Escudo_de_Carballo.svg"
+    },
+    {
+        "nombre": "Cariño",
+        "habitantes": 4004,
+        "superficie": 46.8,
+        "capital": "Cariño",
+        "comarca": "Ortegal",
+        "provincia": "A Coruña",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Escudo_de_Cari%C3%B1o.svg"
+    },
+    {
+        "nombre": "Carnota",
+        "habitantes": 4060,
+        "superficie": 70.9,
+        "capital": "Carnota",
+        "comarca": "Muros",
+        "provincia": "A Coruña",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Carnota.svg"
+    },
+    {
+        "nombre": "Carral",
+        "habitantes": 6237,
+        "superficie": 48.0,
+        "capital": "Carral",
+        "comarca": "A Coruña",
+        "provincia": "A Coruña",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Carral.svg"
+    },
+    {
+        "nombre": "Cartelle",
+        "habitantes": 2683,
+        "superficie": 94.3,
+        "capital": "Outomuro",
+        "comarca": "A Terra de Celanova",
+        "provincia": "Ourense",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Cartelle.svg"
+    },
+    {
+        "nombre": "Castrelo de Miño",
+        "habitantes": 1445,
+        "superficie": 39.7,
+        "capital": "Barral",
+        "comarca": "O Ribeiro",
+        "provincia": "Ourense",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Coat_of_arms_of_Castrelo_de_Mi%C3%B1o.svg"
+    },
+    {
+        "nombre": "Castrelo do Val",
+        "habitantes": 1028,
+        "superficie": 122.0,
+        "capital": "Castrelo do Val",
+        "comarca": "Verín",
+        "provincia": "Ourense",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Escudo_de_Castrelo_do_Val.svg"
+    },
+    {
+        "nombre": "Castro Caldelas",
+        "habitantes": 1298,
+        "superficie": 87.6,
+        "capital": "O Castro de Caldelas",
+        "comarca": "A Terra de Caldelas",
+        "provincia": "Ourense",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Castro_Caldelas_2012.svg"
+    },
+    {
+        "nombre": "Castro de Rei",
+        "habitantes": 5013,
+        "superficie": 177.0,
+        "capital": "Castro de Rei",
+        "comarca": "A Terra Chá",
+        "provincia": "Lugo",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Castro_de_Rei.svg"
+    },
+    {
+        "nombre": "Castroverde",
+        "habitantes": 2676,
+        "superficie": 174.2,
+        "capital": "Castroverde",
+        "comarca": "Lugo",
+        "provincia": "Lugo",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Escudo_de_Castroverde.svg"
+    },
+    {
+        "nombre": "Catoira",
+        "habitantes": 3337,
+        "superficie": 29.4,
+        "capital": "Catoira",
+        "comarca": "Caldas",
+        "provincia": "Pontevedra",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Escudo_de_Catoira.svg"
+    },
+    {
+        "nombre": "Cedeira",
+        "habitantes": 6888,
+        "superficie": 85.4,
+        "capital": "Cedeira",
+        "comarca": "Ferrol",
+        "provincia": "A Coruña",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Escudo_de_Cedeira.svg"
+    },
+    {
+        "nombre": "Cee",
+        "habitantes": 7539,
+        "superficie": 57.5,
+        "capital": "Cee",
+        "comarca": "Fisterra",
+        "provincia": "A Coruña",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Escudo_de_Cee.svg"
+    },
+    {
+        "nombre": "Celanova",
+        "habitantes": 5455,
+        "superficie": 67.3,
+        "capital": "Celanova",
+        "comarca": "A Terra de Celanova",
+        "provincia": "Ourense",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Escudo_de_Celanova.svg"
+    },
+    {
+        "nombre": "Cenlle",
+        "habitantes": 1176,
+        "superficie": 29.0,
+        "capital": "Cenlle",
+        "comarca": "O Ribeiro",
+        "provincia": "Ourense",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Escudo_de_Cenlle.svg"
+    },
+    {
+        "nombre": "Cerceda",
+        "habitantes": 4992,
+        "superficie": 110.9,
+        "capital": "Cerceda",
+        "comarca": "Ordes",
+        "provincia": "A Coruña",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Escudo_de_Cerceda_(A_Coru%C3%B1a).svg"
+    },
+    {
+        "nombre": "Cerdedo-Cotobade",
+        "habitantes": 6107,
+        "superficie": 214.5,
+        "capital": "A Chan",
+        "comarca": "Tabeirós - Terra de Montes",
+        "provincia": "Pontevedra",
+        "escudo": null
+    },
+    {
+        "nombre": "Cerdido",
+        "habitantes": 1170,
+        "superficie": 52.7,
+        "capital": "As Felgosas",
+        "comarca": "Ortegal",
+        "provincia": "A Coruña",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Cerdido.svg"
+    },
+    {
+        "nombre": "Cervantes",
+        "habitantes": 1423,
+        "superficie": 277.6,
+        "capital": "San Román",
+        "comarca": "Os Ancares",
+        "provincia": "Lugo",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Cervantes.svg"
+    },
+    {
+        "nombre": "Cervo",
+        "habitantes": 4274,
+        "superficie": 78.3,
+        "capital": "Cervo",
+        "comarca": "A Mariña Occidental",
+        "provincia": "Lugo",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Escudo_de_Cervo.svg"
+    },
+    {
+        "nombre": "Chandrexa de Queixa",
+        "habitantes": 494,
+        "superficie": 171.8,
+        "capital": "Celeiros",
+        "comarca": "A Terra de Trives",
+        "provincia": "Ourense",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Chandrexa_de_Queixa.svg"
+    },
+    {
+        "nombre": "Chantada",
+        "habitantes": 8371,
+        "superficie": 176.7,
+        "capital": "Chantada",
+        "comarca": "Chantada",
+        "provincia": "Lugo",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Chantada.svg"
+    },
+    {
+        "nombre": "Coirós",
+        "habitantes": 1801,
+        "superficie": 33.9,
+        "capital": "Coirós",
+        "comarca": "Betanzos",
+        "provincia": "A Coruña",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Escudo_de_Coir%C3%B3s.svg"
+    },
+    {
+        "nombre": "Coles",
+        "habitantes": 3077,
+        "superficie": 38.1,
+        "capital": "Vilarchao",
+        "comarca": "Ourense",
+        "provincia": "Ourense",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Escudo_de_Coles.svg"
+    },
+    {
+        "nombre": "Corcubión",
+        "habitantes": 1592,
+        "superficie": 6.5,
+        "capital": "Corcubión",
+        "comarca": "Fisterra",
+        "provincia": "A Coruña",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Corcubi%C3%B3n.svg"
+    },
+    {
+        "nombre": "O Corgo",
+        "habitantes": 3523,
+        "superficie": 157.3,
+        "capital": "O Corgo",
+        "comarca": "Lugo",
+        "provincia": "Lugo",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Escudo_de_O_Corgo.svg"
+    },
+    {
+        "nombre": "Coristanco",
+        "habitantes": 6313,
+        "superficie": 141.1,
+        "capital": "San Roque",
+        "comarca": "Bergantiños",
+        "provincia": "A Coruña",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Escudo_de_Coristanco.svg"
+    },
+    {
+        "nombre": "Cortegada",
+        "habitantes": 1125,
+        "superficie": 26.9,
+        "capital": "Cortegada",
+        "comarca": "O Ribeiro",
+        "provincia": "Ourense",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Coat_of_Arms_of_Cortegada.svg"
+    },
+    {
+        "nombre": "A Coruña",
+        "habitantes": 244099,
+        "superficie": 37.83,
+        "capital": "A Coruña",
+        "comarca": "A Coruña",
+        "provincia": "A Coruña",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Escudo_de_A_Coru%C3%B1a.svg"
+    },
+    {
+        "nombre": "Cospeito",
+        "habitantes": 4665,
+        "superficie": 144.8,
+        "capital": "A Feira do Monte",
+        "comarca": "A Terra Chá",
+        "provincia": "Lugo",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Coat_of_Arms_of_Cospeito.svg"
+    },
+    {
+        "nombre": "Covelo",
+        "habitantes": 2505,
+        "superficie": 125.3,
+        "capital": "Santiago de Covelo",
+        "comarca": "A Paradanta",
+        "provincia": "Pontevedra",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Escudo_de_Covelo.svg"
+    },
+    {
+        "nombre": "Crecente",
+        "habitantes": 2082,
+        "superficie": 57.5,
+        "capital": "Crecente",
+        "comarca": "A Paradanta",
+        "provincia": "Pontevedra",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Escudo_de_Crecente.svg"
+    },
+    {
+        "nombre": "Cualedro",
+        "habitantes": 1721,
+        "superficie": 117.6,
+        "capital": "Cualedro",
+        "comarca": "Verín",
+        "provincia": "Ourense",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Escudo_de_Cualedro.svg"
+    },
+    {
+        "nombre": "Culleredo",
+        "habitantes": 29982,
+        "superficie": 62.3,
+        "capital": "Tarrío",
+        "comarca": "A Coruña",
+        "provincia": "A Coruña",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Escudo_de_Culleredo.svg"
+    },
+    {
+        "nombre": "Cuntis",
+        "habitantes": 4750,
+        "superficie": 79.8,
+        "capital": "Cuntis",
+        "comarca": "Caldas",
+        "provincia": "Pontevedra",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Cuntis_Escudo_oficial.svg"
+    },
+    {
+        "nombre": "Curtis",
+        "habitantes": 3968,
+        "superficie": 116.6,
+        "capital": "Teixeiro",
+        "comarca": "Betanzos",
+        "provincia": "A Coruña",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Escudo_de_Curtis.svg"
+    },
+    {
+        "nombre": "Dodro",
+        "habitantes": 2832,
+        "superficie": 36.1,
+        "capital": "Tallós",
+        "comarca": "O Sar",
+        "provincia": "A Coruña",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Escudo_de_Dodro.svg"
+    },
+    {
+        "nombre": "Dozón",
+        "habitantes": 1179,
+        "superficie": 74.2,
+        "capital": "O Castro",
+        "comarca": "O Deza",
+        "provincia": "Pontevedra",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Coat_of_arms_of_Doz%C3%B3n.svg"
+    },
+    {
+        "nombre": "Dumbría",
+        "habitantes": 3053,
+        "superficie": 124.7,
+        "capital": "Dumbría",
+        "comarca": "Fisterra",
+        "provincia": "A Coruña",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Dumbr%C3%ADa.svg"
+    },
+    {
+        "nombre": "Entrimo",
+        "habitantes": 1184,
+        "superficie": 85.4,
+        "capital": "A Terrachá",
+        "comarca": "A Baixa Limia",
+        "provincia": "Ourense",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Escudo_de_Entrimo_(1964).svg"
+    },
+    {
+        "nombre": "Esgos",
+        "habitantes": 1154,
+        "superficie": 37.8,
+        "capital": "Esgos",
+        "comarca": "Ourense",
+        "provincia": "Ourense",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Escudo_de_Esgos.svg"
+    },
+    {
+        "nombre": "A Estrada",
+        "habitantes": 20700,
+        "superficie": 281.8,
+        "capital": "A Estrada",
+        "comarca": "Tabeirós - Terra de Montes",
+        "provincia": "Pontevedra",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Escudo_A_Estrada.svg"
+    },
+    {
+        "nombre": "Fene",
+        "habitantes": 13110,
+        "superficie": 26.3,
+        "capital": "Fene",
+        "comarca": "Ferrol",
+        "provincia": "A Coruña",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Escudo_de_Fene.svg"
+    },
+    {
+        "nombre": "Ferrol",
+        "habitantes": 67569,
+        "superficie": 82.6,
+        "capital": "Ferrol",
+        "comarca": "Ferrol",
+        "provincia": "A Coruña",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Escudo_de_Ferrol.svg"
+    },
+    {
+        "nombre": "Fisterra",
+        "habitantes": 4734,
+        "superficie": 29.4,
+        "capital": "Fisterra",
+        "comarca": "Fisterra",
+        "provincia": "A Coruña",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Fisterra.svg"
+    },
+    {
+        "nombre": "Folgoso do Courel",
+        "habitantes": 1025,
+        "superficie": 192.8,
+        "capital": "Folgoso do Courel",
+        "comarca": "Quiroga",
+        "provincia": "Lugo",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Escudo_de_Folgoso_do_Caurel.svg"
+    },
+    {
+        "nombre": "A Fonsagrada",
+        "habitantes": 3670,
+        "superficie": 438.4,
+        "capital": "A Fonsagrada",
+        "comarca": "A Fonsagrada",
+        "provincia": "Lugo",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Escudo_de_A_Fonsagrada.svg"
+    },
+    {
+        "nombre": "Forcarei",
+        "habitantes": 3523,
+        "superficie": 168.4,
+        "capital": "Forcarei",
+        "comarca": "Tabeirós - Terra de Montes",
+        "provincia": "Pontevedra",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Forcarei.svg"
+    },
+    {
+        "nombre": "Fornelos de Montes",
+        "habitantes": 1694,
+        "superficie": 83.1,
+        "capital": "Fornelos de Montes",
+        "comarca": "Vigo",
+        "provincia": "Pontevedra",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Fornelos_de_Montes.svg"
+    },
+    {
+        "nombre": "Foz",
+        "habitantes": 9931,
+        "superficie": 100.3,
+        "capital": "Foz",
+        "comarca": "A Mariña Central",
+        "provincia": "Lugo",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Escudo_de_Foz.svg"
+    },
+    {
+        "nombre": "Frades",
+        "habitantes": 2422,
+        "superficie": 81.7,
+        "capital": "Cimadevila",
+        "comarca": "Ordes",
+        "provincia": "A Coruña",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Frades.svg"
+    },
+    {
+        "nombre": "Friol",
+        "habitantes": 3842,
+        "superficie": 292.3,
+        "capital": "Friol",
+        "comarca": "Lugo",
+        "provincia": "Lugo",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Escudo_de_Friol.svg"
+    },
+    {
+        "nombre": "Gomesende",
+        "habitantes": 778,
+        "superficie": 28.3,
+        "capital": "Sobrado",
+        "comarca": "A Terra de Celanova",
+        "provincia": "Ourense",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Escudo_de_Gomesende.svg"
+    },
+    {
+        "nombre": "Gondomar",
+        "habitantes": 14233,
+        "superficie": 74.5,
+        "capital": "Gondomar",
+        "comarca": "Vigo",
+        "provincia": "Pontevedra",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Escudo_de_Gondomar.svg"
+    },
+    {
+        "nombre": "O Grove",
+        "habitantes": 10746,
+        "superficie": 21.9,
+        "capital": "O Grove",
+        "comarca": "O Salnés",
+        "provincia": "Pontevedra",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Escudo_O_Grove.svg"
+    },
+    {
+        "nombre": "A Guarda",
+        "habitantes": 10051,
+        "superficie": 20.5,
+        "capital": "A Guarda",
+        "comarca": "O Baixo Miño",
+        "provincia": "Pontevedra",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Escudo_de_A_Guarda.svg"
+    },
+    {
+        "nombre": "A Gudiña",
+        "habitantes": 1360,
+        "superficie": 171.4,
+        "capital": "A Gudiña",
+        "comarca": "Viana",
+        "provincia": "Ourense",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/A_Gudi%C3%B1a.svg"
+    },
+    {
+        "nombre": "Guitiriz",
+        "habitantes": 5512,
+        "superficie": 293.7,
+        "capital": "Guitiriz",
+        "comarca": "A Terra Chá",
+        "provincia": "Lugo",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Escudo_de_Guitiriz.svg"
+    },
+    {
+        "nombre": "Guntín",
+        "habitantes": 2780,
+        "superficie": 154.8,
+        "capital": "Guntín de Pallares",
+        "comarca": "Lugo",
+        "provincia": "Lugo",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Escudo_de_Gunt%C3%ADn.svg"
+    },
+    {
+        "nombre": "A Illa de Arousa",
+        "habitantes": 4968,
+        "superficie": 7.0,
+        "capital": "Arousa",
+        "comarca": "O Salnés",
+        "provincia": "Pontevedra",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Escudo_de_Illa_de_Arousa.svg"
+    },
+    {
+        "nombre": "O Incio",
+        "habitantes": 1667,
+        "superficie": 146.2,
+        "capital": "A Cruz do Incio",
+        "comarca": "Sarria",
+        "provincia": "Lugo",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Escudo_de_O_Incio.svg"
+    },
+    {
+        "nombre": "O Irixo",
+        "habitantes": 1519,
+        "superficie": 121.0,
+        "capital": "O Irixo",
+        "comarca": "O Carballiño",
+        "provincia": "Ourense",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Escudo_do_Irixo,_Lugo.svg"
+    },
+    {
+        "nombre": "Irixoa",
+        "habitantes": 1361,
+        "superficie": 68.6,
+        "capital": "O Pazo de Irixoa",
+        "comarca": "Betanzos",
+        "provincia": "A Coruña",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Escudo_de_Irixoa.svg"
+    },
+    {
+        "nombre": "Lalín",
+        "habitantes": 20075,
+        "superficie": 326.8,
+        "capital": "Lalín",
+        "comarca": "O Deza",
+        "provincia": "Pontevedra",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Escudo_de_Lal%C3%ADn.svg"
+    },
+    {
+        "nombre": "A Lama",
+        "habitantes": 2478,
+        "superficie": 111.8,
+        "capital": "A Lama",
+        "comarca": "Pontevedra",
+        "provincia": "Pontevedra",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/La_Lama.svg"
+    },
+    {
+        "nombre": "Láncara",
+        "habitantes": 2696,
+        "superficie": 121.7,
+        "capital": "A Pobra de San Xiao",
+        "comarca": "Sarria",
+        "provincia": "Lugo",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Escudo_de_L%C3%A1ncara.svg"
+    },
+    {
+        "nombre": "A Laracha",
+        "habitantes": 11281,
+        "superficie": 125.8,
+        "capital": "A Laracha",
+        "comarca": "Bergantiños",
+        "provincia": "A Coruña",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Escudo_de_Laracha.svg"
+    },
+    {
+        "nombre": "Larouco",
+        "habitantes": 472,
+        "superficie": 23.7,
+        "capital": "Larouco",
+        "comarca": "Valdeorras",
+        "provincia": "Ourense",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Escudo_de_Larouco.svg"
+    },
+    {
+        "nombre": "Laxe",
+        "habitantes": 3090,
+        "superficie": 36.9,
+        "capital": "Laxe",
+        "comarca": "Bergantiños",
+        "provincia": "A Coruña",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Laxe.svg"
+    },
+    {
+        "nombre": "Laza",
+        "habitantes": 1331,
+        "superficie": 215.9,
+        "capital": "Laza",
+        "comarca": "Verín",
+        "provincia": "Ourense",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Escudo_de_Laza.svg"
+    },
+    {
+        "nombre": "Leiro",
+        "habitantes": 1601,
+        "superficie": 38.3,
+        "capital": "Leiro",
+        "comarca": "O Ribeiro",
+        "provincia": "Ourense",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Leiro.svg"
+    },
+    {
+        "nombre": "Lobeira",
+        "habitantes": 825,
+        "superficie": 68.9,
+        "capital": "A Vila",
+        "comarca": "A Baixa Limia",
+        "provincia": "Ourense",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Escudo_de_Lobeira.svg"
+    },
+    {
+        "nombre": "Lobios",
+        "habitantes": 1795,
+        "superficie": 168.4,
+        "capital": "Fondevila",
+        "comarca": "A Baixa Limia",
+        "provincia": "Ourense",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Escudo_de_Lobios.svg"
+    },
+    {
+        "nombre": "Lourenzá",
+        "habitantes": 2224,
+        "superficie": 62.6,
+        "capital": "Vilanova",
+        "comarca": "A Mariña Central",
+        "provincia": "Lugo",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Coat_of_Arms_of_Lourenz%C3%A1.svg"
+    },
+    {
+        "nombre": "Lousame",
+        "habitantes": 3447,
+        "superficie": 93.6,
+        "capital": "Portobravo",
+        "comarca": "Noia",
+        "provincia": "A Coruña",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Escudo_de_Lousame.svg"
+    },
+    {
+        "nombre": "Lugo",
+        "habitantes": 97995,
+        "superficie": 329.78,
+        "capital": "Lugo",
+        "comarca": "Lugo",
+        "provincia": "Lugo",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Coat_of_Arms_of_Lugo_(2012).svg"
+    },
+    {
+        "nombre": "Maceda",
+        "habitantes": 2924,
+        "superficie": 101.9,
+        "capital": "Maceda",
+        "comarca": "Allariz - Maceda",
+        "provincia": "Ourense",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Escudo_de_Maceda.svg"
+    },
+    {
+        "nombre": "Malpica de Bergantiños",
+        "habitantes": 5518,
+        "superficie": 61.4,
+        "capital": "Malpica",
+        "comarca": "Bergantiños",
+        "provincia": "A Coruña",
+        "escudo": null
+    },
+    {
+        "nombre": "Manzaneda",
+        "habitantes": 906,
+        "superficie": 114.6,
+        "capital": "Manzaneda",
+        "comarca": "A Terra de Trives",
+        "provincia": "Ourense",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Escudo_de_Manzaneda.svg"
+    },
+    {
+        "nombre": "Mañón",
+        "habitantes": 1391,
+        "superficie": 82.2,
+        "capital": "Caión",
+        "comarca": "Ortegal",
+        "provincia": "A Coruña",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Coat_of_Arms_of_Ma%C3%B1%C3%B3n.svg"
+    },
+    {
+        "nombre": "Marín",
+        "habitantes": 24637,
+        "superficie": 36.7,
+        "capital": "Marín",
+        "comarca": "O Morrazo",
+        "provincia": "Pontevedra",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Escudo_de_Mar%C3%ADn.svg"
+    },
+    {
+        "nombre": "Maside",
+        "habitantes": 2797,
+        "superficie": 40.0,
+        "capital": "Maside",
+        "comarca": "O Carballiño",
+        "provincia": "Ourense",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Escudo_de_Maside.svg"
+    },
+    {
+        "nombre": "Mazaricos",
+        "habitantes": 4014,
+        "superficie": 187.3,
+        "capital": "A Picota",
+        "comarca": "O Xallas",
+        "provincia": "A Coruña",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Mazaricos.svg"
+    },
+    {
+        "nombre": "Meaño",
+        "habitantes": 5318,
+        "superficie": 27.8,
+        "capital": "As Covas",
+        "comarca": "O Salnés",
+        "provincia": "Pontevedra",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Coat_of_Arms_of_Mea%C3%B1o.svg"
+    },
+    {
+        "nombre": "Meira",
+        "habitantes": 1726,
+        "superficie": 46.5,
+        "capital": "Meira",
+        "comarca": "Meira",
+        "provincia": "Lugo",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Meira.svg"
+    },
+    {
+        "nombre": "Meis",
+        "habitantes": 4788,
+        "superficie": 52.4,
+        "capital": "O Mosteiro",
+        "comarca": "O Salnés",
+        "provincia": "Pontevedra",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Escudo_de_Meis.svg"
+    },
+    {
+        "nombre": "Melide",
+        "habitantes": 7503,
+        "superficie": 101.3,
+        "capital": "Melide",
+        "comarca": "A Terra de Melide",
+        "provincia": "A Coruña",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Escudo_de_Melide_A_Coru%C3%B1a.svg"
+    },
+    {
+        "nombre": "Melón",
+        "habitantes": 1254,
+        "superficie": 53.4,
+        "capital": "Melón",
+        "comarca": "O Ribeiro",
+        "provincia": "Ourense",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Escudo_de_Mel%C3%B3n.svg"
+    },
+    {
+        "nombre": "A Merca",
+        "habitantes": 1924,
+        "superficie": 51.0,
+        "capital": "A Merca",
+        "comarca": "A Terra de Celanova",
+        "provincia": "Ourense",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Escudo_de_A_Merca.svg"
+    },
+    {
+        "nombre": "Mesía",
+        "habitantes": 2637,
+        "superficie": 106.8,
+        "capital": "A Pobra",
+        "comarca": "Ordes",
+        "provincia": "A Coruña",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Mes%C3%ADa.svg"
+    },
+    {
+        "nombre": "A Mezquita",
+        "habitantes": 1034,
+        "superficie": 104.3,
+        "capital": "A Mezquita",
+        "comarca": "Viana",
+        "provincia": "Ourense",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Escudo_de_A_Mezquita.svg"
+    },
+    {
+        "nombre": "Miño",
+        "habitantes": 5905,
+        "superficie": 33.0,
+        "capital": "A Carreira",
+        "comarca": "Betanzos",
+        "provincia": "A Coruña",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Mi%C3%B1o.svg"
+    },
+    {
+        "nombre": "Moaña",
+        "habitantes": 19439,
+        "superficie": 35.1,
+        "capital": "Moaña",
+        "comarca": "O Morrazo",
+        "provincia": "Pontevedra",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Moa%C3%B1aEscudo.svg"
+    },
+    {
+        "nombre": "Moeche",
+        "habitantes": 1230,
+        "superficie": 48.5,
+        "capital": "San Ramón",
+        "comarca": "Ferrol",
+        "provincia": "A Coruña",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Escudo_de_Moeche.svg"
+    },
+    {
+        "nombre": "Mondariz",
+        "habitantes": 4548,
+        "superficie": 85.1,
+        "capital": "Mondariz",
+        "comarca": "O Condado",
+        "provincia": "Pontevedra",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Mondariz.svg"
+    },
+    {
+        "nombre": "Mondariz-Balneario",
+        "habitantes": 627,
+        "superficie": 2.3,
+        "capital": "Mondariz-Balneario",
+        "comarca": "O Condado",
+        "provincia": "Pontevedra",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Escudo_de_Mondariz-Balneario.svg"
+    },
+    {
+        "nombre": "Mondoñedo",
+        "habitantes": 3722,
+        "superficie": 142.7,
+        "capital": "Mondoñedo",
+        "comarca": "A Mariña Central",
+        "provincia": "Lugo",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Escudo_de_Mondo%C3%B1edo.svg"
+    },
+    {
+        "nombre": "Monfero",
+        "habitantes": 1985,
+        "superficie": 171.7,
+        "capital": "Rebordelo",
+        "comarca": "O Eume",
+        "provincia": "A Coruña",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Monfero.svg"
+    },
+    {
+        "nombre": "Monforte de Lemos",
+        "habitantes": 18783,
+        "superficie": 199.5,
+        "capital": "",
+        "comarca": "Terra de Lemos",
+        "provincia": "Lugo",
+        "escudo": null
+    },
+    {
+        "nombre": "Montederramo",
+        "habitantes": 760,
+        "superficie": 135.6,
+        "capital": "",
+        "comarca": "A Terra de Caldelas",
+        "provincia": "Ourense",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Montederramo.svg"
+    },
+    {
+        "nombre": "Monterrei",
+        "habitantes": 2655,
+        "superficie": 119.1,
+        "capital": "Monterrei",
+        "comarca": "Verín",
+        "provincia": "Ourense",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Escudo_de_Monterrei.svg"
+    },
+    {
+        "nombre": "Monterroso",
+        "habitantes": 3678,
+        "superficie": 114.6,
+        "capital": "Monterroso",
+        "comarca": "A Ulloa",
+        "provincia": "Lugo",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Escudo_de_Monterroso.svg"
+    },
+    {
+        "nombre": "Moraña",
+        "habitantes": 4246,
+        "superficie": 41.3,
+        "capital": "Santa Lucía de Moraña",
+        "comarca": "Caldas",
+        "provincia": "Pontevedra",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Mora%C3%B1a.svg"
+    },
+    {
+        "nombre": "Mos",
+        "habitantes": 15132,
+        "superficie": 53.2,
+        "capital": "Reguengo",
+        "comarca": "Vigo",
+        "provincia": "Pontevedra",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Escudo_de_Mos_(Pontevedra).svg"
+    },
+    {
+        "nombre": "Mugardos",
+        "habitantes": 5303,
+        "superficie": 12.8,
+        "capital": "Mugardos",
+        "comarca": "Ferrol",
+        "provincia": "A Coruña",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Escudo_de_Mugardos.svg"
+    },
+    {
+        "nombre": "Muíños",
+        "habitantes": 1514,
+        "superficie": 109.7,
+        "capital": "Mugueimes",
+        "comarca": "A Baixa Limia",
+        "provincia": "Ourense",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Escudo_de_Mu%C3%AD%C3%B1os.svg"
+    },
+    {
+        "nombre": "Muras",
+        "habitantes": 648,
+        "superficie": 163.8,
+        "capital": "Muras",
+        "comarca": "A Terra Chá",
+        "provincia": "Lugo",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Muras_Coat_of_Arms.svg"
+    },
+    {
+        "nombre": "Muros",
+        "habitantes": 8792,
+        "superficie": 72.9,
+        "capital": "Muros",
+        "comarca": "Muros",
+        "provincia": "A Coruña",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Escudo_de_Muros.svg"
+    },
+    {
+        "nombre": "Muxía",
+        "habitantes": 4852,
+        "superficie": 121.3,
+        "capital": "Muxía",
+        "comarca": "Fisterra",
+        "provincia": "A Coruña",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Escudo_de_Muxia.svg"
+    },
+    {
+        "nombre": "Narón",
+        "habitantes": 39280,
+        "superficie": 67.0,
+        "capital": "Narón",
+        "comarca": "Ferrol",
+        "provincia": "A Coruña",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Escudo_de_Nar%C3%B3n.svg"
+    },
+    {
+        "nombre": "Navia de Suarna",
+        "habitantes": 1140,
+        "superficie": 242.6,
+        "capital": "A Proba",
+        "comarca": "Os Ancares",
+        "provincia": "Lugo",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Escudo_de_Navia_de_Suarna.svg"
+    },
+    {
+        "nombre": "Neda",
+        "habitantes": 5165,
+        "superficie": 23.8,
+        "capital": "Neda",
+        "comarca": "Ferrol",
+        "provincia": "A Coruña",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Neda.svg"
+    },
+    {
+        "nombre": "Negreira",
+        "habitantes": 6883,
+        "superficie": 115.1,
+        "capital": "Negreira",
+        "comarca": "A Barcala",
+        "provincia": "A Coruña",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Negreira.svg"
+    },
+    {
+        "nombre": "Negueira de Muñiz",
+        "habitantes": 219,
+        "superficie": 72.3,
+        "capital": "Negueira",
+        "comarca": "A Fonsagrada",
+        "provincia": "Lugo",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Escudo_de_Negueira_de_Mu%C3%B1iz.svg"
+    },
+    {
+        "nombre": "As Neves",
+        "habitantes": 3968,
+        "superficie": 65.5,
+        "capital": "As Neves",
+        "comarca": "O Condado",
+        "provincia": "Pontevedra",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Escudo_de_As_Neves.svg"
+    },
+    {
+        "nombre": "Nigrán",
+        "habitantes": 17622,
+        "superficie": 34.8,
+        "capital": "Nigrán",
+        "comarca": "Vigo",
+        "provincia": "Pontevedra",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Coat_of_Arms_of_Nigr%C3%A1n.svg"
+    },
+    {
+        "nombre": "As Nogais",
+        "habitantes": 1146,
+        "superficie": 110.3,
+        "capital": "As Nogais",
+        "comarca": "Os Ancares",
+        "provincia": "Lugo",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/As_Nogais.svg"
+    },
+    {
+        "nombre": "Nogueira de Ramuín",
+        "habitantes": 2033,
+        "superficie": 98.3,
+        "capital": "Luíntra",
+        "comarca": "Ourense",
+        "provincia": "Ourense",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Escudo_de_Nogueira_de_Ramu%C3%ADn.svg"
+    },
+    {
+        "nombre": "Noia",
+        "habitantes": 14295,
+        "superficie": 37.2,
+        "capital": "Noia",
+        "comarca": "Noia",
+        "provincia": "A Coruña",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Escudo_de_Noia.svg"
+    },
+    {
+        "nombre": "Oia",
+        "habitantes": 3004,
+        "superficie": 83.3,
+        "capital": "O Arrabal",
+        "comarca": "O Baixo Miño",
+        "provincia": "Pontevedra",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Coats_of_arms_of_None.svg"
+    },
+    {
+        "nombre": "Oímbra",
+        "habitantes": 1818,
+        "superficie": 71.9,
+        "capital": "",
+        "comarca": "Verín",
+        "provincia": "Ourense",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Escudo_de_O%C3%ADmbra.svg"
+    },
+    {
+        "nombre": "Oleiros",
+        "habitantes": 35198,
+        "superficie": 43.8,
+        "capital": "",
+        "comarca": "A Coruña",
+        "provincia": "A Coruña",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Escudo_de_Oleiros.svg"
+    },
+    {
+        "nombre": "Ordes",
+        "habitantes": 12580,
+        "superficie": 157.3,
+        "capital": "",
+        "comarca": "Ordes",
+        "provincia": "A Coruña",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Escudo_de_Ordes.svg"
+    },
+    {
+        "nombre": "Oroso",
+        "habitantes": 7452,
+        "superficie": 72.1,
+        "capital": "Sigüeiro",
+        "comarca": "Ordes",
+        "provincia": "A Coruña",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Oroso.svg"
+    },
+    {
+        "nombre": "Ortigueira",
+        "habitantes": 5966,
+        "superficie": 210.0,
+        "capital": "",
+        "comarca": "Ortegal",
+        "provincia": "A Coruña",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Escudo_de_Ortigueira.svg"
+    },
+    {
+        "nombre": "Ourense",
+        "habitantes": 105636,
+        "superficie": 84.5,
+        "capital": "Ourense",
+        "comarca": "Ourense",
+        "provincia": "Ourense",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Coat_of_Arms_of_Ourense.svg"
+    },
+    {
+        "nombre": "Ourol",
+        "habitantes": 1016,
+        "superficie": 142.1,
+        "capital": "",
+        "comarca": "A Mariña Occidental",
+        "provincia": "Lugo",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Ourol.svg"
+    },
+    {
+        "nombre": "Outeiro de Rei",
+        "habitantes": 5063,
+        "superficie": 134.2,
+        "capital": "",
+        "comarca": "Lugo",
+        "provincia": "Lugo",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Escudo_de_Outeiro_de_Rei.svg"
+    },
+    {
+        "nombre": "Outes",
+        "habitantes": 6514,
+        "superficie": 99.7,
+        "capital": "A Serra de Outes",
+        "comarca": "Noia",
+        "provincia": "A Coruña",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Escudo_Outes.svg"
+    },
+    {
+        "nombre": "Oza-Cesuras",
+        "habitantes": 5133,
+        "superficie": 151.8,
+        "capital": "Oza",
+        "comarca": "Betanzos",
+        "provincia": "A Coruña",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Bandeira_de_Oza-Cesuras_A_Coru%C3%B1a.svg"
+    },
+    {
+        "nombre": "Paderne",
+        "habitantes": 2441,
+        "superficie": 39.8,
+        "capital": "O Consistorio",
+        "comarca": "Betanzos",
+        "provincia": "A Coruña",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Escudo_de_Paderne_(1967).svg"
+    },
+    {
+        "nombre": "Paderne de Allariz",
+        "habitantes": 1414,
+        "superficie": 38.8,
+        "capital": "",
+        "comarca": "Allariz - Maceda",
+        "provincia": "Ourense",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Paderne_de_Allariz.svg"
+    },
+    {
+        "nombre": "Padrenda",
+        "habitantes": 1838,
+        "superficie": 57.0,
+        "capital": "",
+        "comarca": "A Terra de Celanova",
+        "provincia": "Ourense",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Escudo_de_Padrenda.svg"
+    },
+    {
+        "nombre": "Padrón",
+        "habitantes": 8463,
+        "superficie": 48.4,
+        "capital": "",
+        "comarca": "O Sar",
+        "provincia": "A Coruña",
+        "escudo": "https://gl.wikipedia.org/wiki/Ficheiro:Escudo_de_Padr%C3%B3n_(oficial).png"
+    },
+    {
+        "nombre": "Palas de Rei",
+        "habitantes": 3489,
+        "superficie": 199.7,
+        "capital": "",
+        "comarca": "A Ulloa",
+        "provincia": "Lugo",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Palas_de_Rei.svg"
+    },
+    {
+        "nombre": "Pantón",
+        "habitantes": 2565,
+        "superficie": 143.2,
+        "capital": "O Castro de Ferreira",
+        "comarca": "Terra de Lemos",
+        "provincia": "Lugo",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Escudo_de_Pant%C3%B3n.svg"
+    },
+    {
+        "nombre": "Parada de Sil",
+        "habitantes": 593,
+        "superficie": 62.4,
+        "capital": "",
+        "comarca": "A Terra de Caldelas",
+        "provincia": "Ourense",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Escudo_de_Parada_de_Sil.svg"
+    },
+    {
+        "nombre": "Paradela",
+        "habitantes": 1851,
+        "superficie": 121.1,
+        "capital": "Pacios",
+        "comarca": "Sarria",
+        "provincia": "Lugo",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Escudo_de_Paradela.svg"
+    },
+    {
+        "nombre": "O Páramo",
+        "habitantes": 1420,
+        "superficie": 74.8,
+        "capital": "O Campo da Feira",
+        "comarca": "Sarria",
+        "provincia": "Lugo",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Escudo_de_O_P%C3%A1ramo.svg"
+    },
+    {
+        "nombre": "A Pastoriza",
+        "habitantes": 3133,
+        "superficie": 175.0,
+        "capital": "",
+        "comarca": "A Terra Chá",
+        "provincia": "Lugo",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Escudo_de_A_Pastoriza.svg"
+    },
+    {
+        "nombre": "Pazos de Borbén",
+        "habitantes": 2991,
+        "superficie": 50.0,
+        "capital": "Pazos",
+        "comarca": "Vigo",
+        "provincia": "Pontevedra",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Escudo_de_Pazos_de_Borb%C3%A9n.svg"
+    },
+    {
+        "nombre": "Pedrafita do Cebreiro",
+        "habitantes": 1070,
+        "superficie": 104.9,
+        "capital": "",
+        "comarca": "Os Ancares",
+        "provincia": "Lugo",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Pedrafita_do_Cebreiro_Coat_of_Arms.svg"
+    },
+    {
+        "nombre": "O Pereiro de Aguiar",
+        "habitantes": 6228,
+        "superficie": 60.9,
+        "capital": "",
+        "comarca": "Ourense",
+        "provincia": "Ourense",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Escudo_de_Pereiro_de_Aguiar.svg"
+    },
+    {
+        "nombre": "A Peroxa",
+        "habitantes": 1902,
+        "superficie": 54.5,
+        "capital": "",
+        "comarca": "Ourense",
+        "provincia": "Ourense",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/A_Peroxa.svg"
+    },
+    {
+        "nombre": "Petín",
+        "habitantes": 921,
+        "superficie": 30.5,
+        "capital": "",
+        "comarca": "Valdeorras",
+        "provincia": "Ourense",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Escudo_de_Pet%C3%ADn.svg"
+    },
+    {
+        "nombre": "O Pino",
+        "habitantes": 4644,
+        "superficie": 131.9,
+        "capital": "",
+        "comarca": "Arzúa",
+        "provincia": "A Coruña",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Escudo_de_O_Pino.svg"
+    },
+    {
+        "nombre": "Piñor",
+        "habitantes": 1172,
+        "superficie": 52.7,
+        "capital": "",
+        "comarca": "O Carballiño",
+        "provincia": "Ourense",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Pi%C3%B1or.svg"
+    },
+    {
+        "nombre": "A Pobra de Trives",
+        "habitantes": 2150,
+        "superficie": 84.2,
+        "capital": "",
+        "comarca": "A Terra de Trives",
+        "provincia": "Ourense",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Coat_of_arms_of_A_Pobra_de_Trives.svg"
+    },
+    {
+        "nombre": "A Pobra do Brollón",
+        "habitantes": 1709,
+        "superficie": 176.7,
+        "capital": "",
+        "comarca": "Terra de Lemos",
+        "provincia": "Lugo",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Escudo_de_A_Pobra_do_Broll%C3%B3n.svg"
+    },
+    {
+        "nombre": "A Pobra do Caramiñal",
+        "habitantes": 9440,
+        "superficie": 32.4,
+        "capital": "",
+        "comarca": "A Barbanza",
+        "provincia": "A Coruña",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Pobra_do_Carami%C3%B1al.svg"
+    },
+    {
+        "nombre": "Poio",
+        "habitantes": 16871,
+        "superficie": 33.9,
+        "capital": "",
+        "comarca": "Pontevedra",
+        "provincia": "Pontevedra",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Escudo_de_Poio.svg"
+    },
+    {
+        "nombre": "Pol",
+        "habitantes": 1663,
+        "superficie": 125.9,
+        "capital": "",
+        "comarca": "Meira",
+        "provincia": "Lugo",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Escudo_de_Pol.svg"
+    },
+    {
+        "nombre": "Ponte Caldelas",
+        "habitantes": 5562,
+        "superficie": 87.0,
+        "capital": "",
+        "comarca": "Pontevedra",
+        "provincia": "Pontevedra",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Escudo_de_Puente_Caldelas.svg"
+    },
+    {
+        "nombre": "Ponteareas",
+        "habitantes": 22893,
+        "superficie": 125.6,
+        "capital": "Ponteareas",
+        "comarca": "O Condado",
+        "provincia": "Pontevedra",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Coat_of_Arms_of_Ponteareas.svg"
+    },
+    {
+        "nombre": "Ponteceso",
+        "habitantes": 5613,
+        "superficie": 91.9,
+        "capital": "",
+        "comarca": "Bergantiños",
+        "provincia": "A Coruña",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Escudo_de_Ponteceso.svg"
+    },
+    {
+        "nombre": "Pontecesures",
+        "habitantes": 3037,
+        "superficie": 6.7,
+        "capital": "",
+        "comarca": "Caldas",
+        "provincia": "Pontevedra",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Coat_of_Arms_of_Pontecesures.svg"
+    },
+    {
+        "nombre": "Pontedeume",
+        "habitantes": 7937,
+        "superficie": 29.3,
+        "capital": "",
+        "comarca": "O Eume",
+        "provincia": "A Coruña",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Escudo_de_Pontedeume.svg"
+    },
+    {
+        "nombre": "Pontedeva",
+        "habitantes": 570,
+        "superficie": 9.9,
+        "capital": "",
+        "comarca": "A Terra de Celanova",
+        "provincia": "Ourense",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Pontedeva.svg"
+    },
+    {
+        "nombre": "A Pontenova",
+        "habitantes": 2330,
+        "superficie": 135.8,
+        "capital": "",
+        "comarca": "A Mariña Oriental",
+        "provincia": "Lugo",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Escudo_de_A_Pontenova.svg"
+    },
+    {
+        "nombre": "As Pontes de García Rodríguez",
+        "habitantes": 10324,
+        "superficie": 249.4,
+        "capital": "",
+        "comarca": "O Eume",
+        "provincia": "A Coruña",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/As_Pontes_de_Garc%C3%ADa_Rodr%C3%ADguez.svg"
+    },
+    {
+        "nombre": "Pontevedra",
+        "habitantes": 82671,
+        "superficie": 118.3,
+        "capital": "Pontevedra",
+        "comarca": "Pontevedra",
+        "provincia": "Pontevedra",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Escudo_de_Pontevedra.svg"
+    },
+    {
+        "nombre": "Porqueira",
+        "habitantes": 848,
+        "superficie": 43.4,
+        "capital": "A Forxa",
+        "comarca": "A Limia",
+        "provincia": "Ourense",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Coat_of_Arms_of_Porqueira.svg"
+    },
+    {
+        "nombre": "O Porriño",
+        "habitantes": 19600,
+        "superficie": 61.2,
+        "capital": "O Porriño",
+        "comarca": "Vigo",
+        "provincia": "Pontevedra",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Escudo_de_Porri%C3%B1o.svg"
+    },
+    {
+        "nombre": "Portas",
+        "habitantes": 3016,
+        "superficie": 22.6,
+        "capital": "",
+        "comarca": "Caldas",
+        "provincia": "Pontevedra",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Escudo_de_Portas.svg"
+    },
+    {
+        "nombre": "Porto do Son",
+        "habitantes": 9271,
+        "superficie": 94.6,
+        "capital": "",
+        "comarca": "Noia",
+        "provincia": "A Coruña",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Escudo_de_Porto_do_Son.svg"
+    },
+    {
+        "nombre": "Portomarín",
+        "habitantes": 1508,
+        "superficie": 115.1,
+        "capital": "",
+        "comarca": "Lugo",
+        "provincia": "Lugo",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Coat_of_arms_of_Portomar%C3%ADn.svg"
+    },
+    {
+        "nombre": "Punxín",
+        "habitantes": 713,
+        "superficie": 17.1,
+        "capital": "",
+        "comarca": "O Carballiño",
+        "provincia": "Ourense",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Escudo_de_Punx%C3%ADn.svg"
+    },
+    {
+        "nombre": "Quintela de Leirado",
+        "habitantes": 615,
+        "superficie": 31.3,
+        "capital": "",
+        "comarca": "A Terra de Celanova",
+        "provincia": "Ourense",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Quintela_de_Leirado.svg"
+    },
+    {
+        "nombre": "Quiroga",
+        "habitantes": 3328,
+        "superficie": 317.4,
+        "capital": "",
+        "comarca": "Quiroga",
+        "provincia": "Lugo",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Escudo_de_Quiroga.svg"
+    },
+    {
+        "nombre": "Rábade",
+        "habitantes": 1519,
+        "superficie": 5.2,
+        "capital": "",
+        "comarca": "Lugo",
+        "provincia": "Lugo",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Escudo_de_R%C3%A1bade.svg"
+    },
+    {
+        "nombre": "Rairiz de Veiga",
+        "habitantes": 1330,
+        "superficie": 72.4,
+        "capital": "",
+        "comarca": "A Limia",
+        "provincia": "Ourense",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Escudo_de_Rairiz_de_Veiga.svg"
+    },
+    {
+        "nombre": "Redondela",
+        "habitantes": 29392,
+        "superficie": 52.1,
+        "capital": "Redondela",
+        "comarca": "Vigo",
+        "provincia": "Pontevedra",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Escudo_de_Redondela.svg"
+    },
+    {
+        "nombre": "Rianxo",
+        "habitantes": 11188,
+        "superficie": 58.8,
+        "capital": "",
+        "comarca": "A Barbanza",
+        "provincia": "A Coruña",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Escudo_de_Rianxo.svg"
+    },
+    {
+        "nombre": "Ribadavia",
+        "habitantes": 5095,
+        "superficie": 25.2,
+        "capital": "",
+        "comarca": "O Ribeiro",
+        "provincia": "Ourense",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Ribadavia.svg"
+    },
+    {
+        "nombre": "Ribadeo",
+        "habitantes": 9962,
+        "superficie": 108.9,
+        "capital": "",
+        "comarca": "A Mariña Oriental",
+        "provincia": "Lugo",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Coat_of_Arms_of_Ribadeo.svg"
+    },
+    {
+        "nombre": "Ribadumia",
+        "habitantes": 5081,
+        "superficie": 19.7,
+        "capital": "Barrantes",
+        "comarca": "O Salnés",
+        "provincia": "Pontevedra",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Escudo_de_Ribadumia.svg"
+    },
+    {
+        "nombre": "Ribas de Sil",
+        "habitantes": 980,
+        "superficie": 67.8,
+        "capital": "",
+        "comarca": "Quiroga",
+        "provincia": "Lugo",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Escudo_de_Ribas_de_Sil.svg"
+    },
+    {
+        "nombre": "Ribeira",
+        "habitantes": 27159,
+        "superficie": 69.0,
+        "capital": "",
+        "comarca": "A Barbanza",
+        "provincia": "A Coruña",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Coat_of_Arms_of_Riveira.svg"
+    },
+    {
+        "nombre": "Ribeira de Piquín",
+        "habitantes": 554,
+        "superficie": 73.0,
+        "capital": "O Chao de Pousadoiro",
+        "comarca": "Meira",
+        "provincia": "Lugo",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Escudo_de_Ribeira_de_Piqu%C3%ADn.svg"
+    },
+    {
+        "nombre": "Riós",
+        "habitantes": 1609,
+        "superficie": 114.4,
+        "capital": "",
+        "comarca": "Verín",
+        "provincia": "Ourense",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Escudo_de_Ri%C3%B3s.svg"
+    },
+    {
+        "nombre": "Riotorto",
+        "habitantes": 1288,
+        "superficie": 66.3,
+        "capital": "As Rodrigas",
+        "comarca": "Meira",
+        "provincia": "Lugo",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Coat_of_Arms_of_Riotorto.svg"
+    },
+    {
+        "nombre": "Rodeiro",
+        "habitantes": 2567,
+        "superficie": 154.9,
+        "capital": "",
+        "comarca": "O Deza",
+        "provincia": "Pontevedra",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Rodeiro.svg"
+    },
+    {
+        "nombre": "Rois",
+        "habitantes": 4627,
+        "superficie": 92.8,
+        "capital": "Samil",
+        "comarca": "O Sar",
+        "provincia": "A Coruña",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Escudo_de_Rois.svg"
+    },
+    {
+        "nombre": "O Rosal",
+        "habitantes": 6328,
+        "superficie": 44.1,
+        "capital": "",
+        "comarca": "O Baixo Miño",
+        "provincia": "Pontevedra",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Escudo_de_El_Rosal_(Pontevedra).svg"
+    },
+    {
+        "nombre": "A Rúa",
+        "habitantes": 4459,
+        "superficie": 35.9,
+        "capital": "",
+        "comarca": "Valdeorras",
+        "provincia": "Ourense",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/A_R%C3%BAa.svg"
+    },
+    {
+        "nombre": "Rubiá",
+        "habitantes": 1462,
+        "superficie": 100.7,
+        "capital": "",
+        "comarca": "Valdeorras",
+        "provincia": "Ourense",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Escudo_de_Rubi%C3%A1_Ourense.svg"
+    },
+    {
+        "nombre": "Sada",
+        "habitantes": 15242,
+        "superficie": 27.4,
+        "capital": "",
+        "comarca": "A Coruña",
+        "provincia": "A Coruña",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Escudo_de_Sada_(A_Coru%C3%B1a).svg"
+    },
+    {
+        "nombre": "Salceda de Caselas",
+        "habitantes": 9017,
+        "superficie": 35.9,
+        "capital": "",
+        "comarca": "Vigo",
+        "provincia": "Pontevedra",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Salceda_de_Caselas.svg"
+    },
+    {
+        "nombre": "Salvaterra de Miño",
+        "habitantes": 9657,
+        "superficie": 62.5,
+        "capital": "",
+        "comarca": "O Condado",
+        "provincia": "Pontevedra",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Coats_of_arms_of_None.svg"
+    },
+    {
+        "nombre": "Samos",
+        "habitantes": 1343,
+        "superficie": 136.6,
+        "capital": "",
+        "comarca": "Sarria",
+        "provincia": "Lugo",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Escudo_de_Samos_(2009).svg"
+    },
+    {
+        "nombre": "San Amaro",
+        "habitantes": 1112,
+        "superficie": 28.9,
+        "capital": "",
+        "comarca": "O Carballiño",
+        "provincia": "Ourense",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Escudo_de_San_Amaro.svg"
+    },
+    {
+        "nombre": "San Cibrao das Viñas",
+        "habitantes": 5184,
+        "superficie": 39.5,
+        "capital": "",
+        "comarca": "Ourense",
+        "provincia": "Ourense",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/San_Cibrao_das_Vi%C3%B1as.svg"
+    },
+    {
+        "nombre": "San Cristovo de Cea",
+        "habitantes": 2241,
+        "superficie": 93.9,
+        "capital": "",
+        "comarca": "O Carballiño",
+        "provincia": "Ourense",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Escudo_de_San_Cristovo_de_Cea,_Ourense.svg"
+    },
+    {
+        "nombre": "San Sadurniño",
+        "habitantes": 2877,
+        "superficie": 99.7,
+        "capital": "",
+        "comarca": "Ferrol",
+        "provincia": "A Coruña",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/San_Sadurni%C3%B1o.svg"
+    },
+    {
+        "nombre": "San Xoán de Río",
+        "habitantes": 561,
+        "superficie": 61.1,
+        "capital": "",
+        "comarca": "A Terra de Trives",
+        "provincia": "Ourense",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Escudo_de_San_Xo%C3%A1n_de_R%C3%ADo.svg"
+    },
+    {
+        "nombre": "Sandiás",
+        "habitantes": 1261,
+        "superficie": 52.8,
+        "capital": "",
+        "comarca": "A Limia",
+        "provincia": "Ourense",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Escudo_de_Sandi%C3%A1s.svg"
+    },
+    {
+        "nombre": "Santa Comba",
+        "habitantes": 9477,
+        "superficie": 203.7,
+        "capital": "",
+        "comarca": "O Xallas",
+        "provincia": "A Coruña",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Escudo_de_Santa_Comba.svg"
+    },
+    {
+        "nombre": "Santiago",
+        "habitantes": 96456,
+        "superficie": 220.6,
+        "capital": "Santiago de Compostela",
+        "comarca": "Santiago",
+        "provincia": "A Coruña",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Coat_of_Arms_of_Santiago_de_Compostela.svg"
+    },
+    {
+        "nombre": "Santiso",
+        "habitantes": 1630,
+        "superficie": 67.4,
+        "capital": "",
+        "comarca": "A Terra de Melide",
+        "provincia": "A Coruña",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Santiso.svg"
+    },
+    {
+        "nombre": "Sanxenxo",
+        "habitantes": 17241,
+        "superficie": 45.1,
+        "capital": "",
+        "comarca": "O Salnés",
+        "provincia": "Pontevedra",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Escudo_de_Sanxenxo.svg"
+    },
+    {
+        "nombre": "Sarreaus",
+        "habitantes": 1220,
+        "superficie": 77.3,
+        "capital": "",
+        "comarca": "A Limia",
+        "provincia": "Ourense",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Coat_of_Arms_of_Sarreaus.svg"
+    },
+    {
+        "nombre": "Sarria",
+        "habitantes": 13359,
+        "superficie": 184.6,
+        "capital": "",
+        "comarca": "Sarria",
+        "provincia": "Lugo",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Escudo_de_Sarria.svg"
+    },
+    {
+        "nombre": "O Saviñao",
+        "habitantes": 3832,
+        "superficie": 196.6,
+        "capital": "Escairón",
+        "comarca": "Terra de Lemos",
+        "provincia": "Lugo",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Escudo_do_Savi%C3%B1ao.svg"
+    },
+    {
+        "nombre": "Silleda",
+        "habitantes": 8669,
+        "superficie": 168.0,
+        "capital": "",
+        "comarca": "O Deza",
+        "provincia": "Pontevedra",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Coat_of_arms_of_Silleda.svg"
+    },
+    {
+        "nombre": "Sober",
+        "habitantes": 2338,
+        "superficie": 133.3,
+        "capital": "",
+        "comarca": "Terra de Lemos",
+        "provincia": "Lugo",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Escudo_de_Sober.svg"
+    },
+    {
+        "nombre": "Sobrado",
+        "habitantes": 1847,
+        "superficie": 120.6,
+        "capital": "Sobrado",
+        "comarca": "A Terra de Melide",
+        "provincia": "A Coruña",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Escudo_de_Sobrado.svg"
+    },
+    {
+        "nombre": "As Somozas",
+        "habitantes": 1128,
+        "superficie": 70.9,
+        "capital": "A Igrexa",
+        "comarca": "Ferrol",
+        "provincia": "A Coruña",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Escudo_de_As_Somozas.svg"
+    },
+    {
+        "nombre": "Soutomaior",
+        "habitantes": 7242,
+        "superficie": 25.0,
+        "capital": "",
+        "comarca": "Vigo",
+        "provincia": "Pontevedra",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Escudo_de_Soutomaior_(DOG).svg"
+    },
+    {
+        "nombre": "Taboada",
+        "habitantes": 2862,
+        "superficie": 146.7,
+        "capital": "",
+        "comarca": "Chantada",
+        "provincia": "Lugo",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Escudo_de_Taboada.svg"
+    },
+    {
+        "nombre": "Taboadela",
+        "habitantes": 1458,
+        "superficie": 25.2,
+        "capital": "",
+        "comarca": "Ourense",
+        "provincia": "Ourense",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Escudo_de_Taboadela.svg"
+    },
+    {
+        "nombre": "A Teixeira",
+        "habitantes": 339,
+        "superficie": 27.6,
+        "capital": "",
+        "comarca": "A Terra de Caldelas",
+        "provincia": "Ourense",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Coat_of_Arms_of_A_Teixeira.svg"
+    },
+    {
+        "nombre": "Teo",
+        "habitantes": 18478,
+        "superficie": 79.3,
+        "capital": "A Ramallosa",
+        "comarca": "Santiago",
+        "provincia": "A Coruña",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Escudo_de_Teo.svg"
+    },
+    {
+        "nombre": "Toén",
+        "habitantes": 2377,
+        "superficie": 58.3,
+        "capital": "",
+        "comarca": "Ourense",
+        "provincia": "Ourense",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Escudo_de_To%C3%A9n.svg"
+    },
+    {
+        "nombre": "Tomiño",
+        "habitantes": 13585,
+        "superficie": 106.6,
+        "capital": "O Seixo",
+        "comarca": "O Baixo Miño",
+        "provincia": "Pontevedra",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Coat_of_Arms_of_Tomi%C3%B1o.svg"
+    },
+    {
+        "nombre": "Toques",
+        "habitantes": 1173,
+        "superficie": 77.9,
+        "capital": "",
+        "comarca": "A Terra de Melide",
+        "provincia": "A Coruña",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Toques.svg"
+    },
+    {
+        "nombre": "Tordoia",
+        "habitantes": 3433,
+        "superficie": 124.5,
+        "capital": "",
+        "comarca": "Ordes",
+        "provincia": "A Coruña",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Escudo_de_Tordoia.svg"
+    },
+    {
+        "nombre": "Touro",
+        "habitantes": 3693,
+        "superficie": 115.3,
+        "capital": "",
+        "comarca": "Arzúa",
+        "provincia": "A Coruña",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Touro.svg"
+    },
+    {
+        "nombre": "Trabada",
+        "habitantes": 1117,
+        "superficie": 82.7,
+        "capital": "",
+        "comarca": "A Mariña Oriental",
+        "provincia": "Lugo",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Escudo_de_Trabada.svg"
+    },
+    {
+        "nombre": "Trasmiras",
+        "habitantes": 1327,
+        "superficie": 56.7,
+        "capital": "",
+        "comarca": "A Limia",
+        "provincia": "Ourense",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Trasmir%C3%A1s.svg"
+    },
+    {
+        "nombre": "Trazo",
+        "habitantes": 3186,
+        "superficie": 101.4,
+        "capital": "",
+        "comarca": "Ordes",
+        "provincia": "A Coruña",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Escudo_de_Trazo.svg"
+    },
+    {
+        "nombre": "Triacastela",
+        "habitantes": 658,
+        "superficie": 51.2,
+        "capital": "",
+        "comarca": "Sarria",
+        "provincia": "Lugo",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Escudo_de_Triacastela.svg"
+    },
+    {
+        "nombre": "Tui",
+        "habitantes": 16860,
+        "superficie": 68.3,
+        "capital": "",
+        "comarca": "O Baixo Miño",
+        "provincia": "Pontevedra",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Escudo-Tui-Vectorizado2.svg"
+    },
+    {
+        "nombre": "Val do Dubra",
+        "habitantes": 3931,
+        "superficie": 108.7,
+        "capital": "Bembibre",
+        "comarca": "Santiago",
+        "provincia": "A Coruña",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Escudo_de_Val_do_Dubra.svg"
+    },
+    {
+        "nombre": "O Valadouro",
+        "habitantes": 2002,
+        "superficie": 110.5,
+        "capital": "",
+        "comarca": "A Mariña Central",
+        "provincia": "Lugo",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/O_Valadouro.svg"
+    },
+    {
+        "nombre": "Valdoviño",
+        "habitantes": 6594,
+        "superficie": 88.2,
+        "capital": "",
+        "comarca": "Ferrol",
+        "provincia": "A Coruña",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Valdovi%C3%B1o.svg"
+    },
+    {
+        "nombre": "Valga",
+        "habitantes": 5986,
+        "superficie": 40.6,
+        "capital": "",
+        "comarca": "Caldas",
+        "provincia": "Pontevedra",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Escudo_de_Valga_(2017).svg"
+    },
+    {
+        "nombre": "Vedra",
+        "habitantes": 5051,
+        "superficie": 52.8,
+        "capital": "",
+        "comarca": "Santiago",
+        "provincia": "A Coruña",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Escudo_de_Vedra.svg"
+    },
+    {
+        "nombre": "A Veiga",
+        "habitantes": 907,
+        "superficie": 290.5,
+        "capital": "",
+        "comarca": "Valdeorras",
+        "provincia": "Ourense",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/A_Veiga.svg"
+    },
+    {
+        "nombre": "Verea",
+        "habitantes": 956,
+        "superficie": 94.2,
+        "capital": "",
+        "comarca": "A Terra de Celanova",
+        "provincia": "Ourense",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Escudo_de_Verea.svg"
+    },
+    {
+        "nombre": "Verín",
+        "habitantes": 13889,
+        "superficie": 94.1,
+        "capital": "Verín",
+        "comarca": "Verín",
+        "provincia": "Ourense",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Coat_of_Arms_of_Ver%C3%ADn.svg"
+    },
+    {
+        "nombre": "Viana do Bolo",
+        "habitantes": 2964,
+        "superficie": 270.4,
+        "capital": "",
+        "comarca": "Viana",
+        "provincia": "Ourense",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Escudo_de_Viana_do_Bolo_(Ourense).svg"
+    },
+    {
+        "nombre": "O Vicedo",
+        "habitantes": 1747,
+        "superficie": 76.0,
+        "capital": "",
+        "comarca": "A Mariña Occidental",
+        "provincia": "Lugo",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/O_Vicedo.svg"
+    },
+    {
+        "nombre": "Vigo",
+        "habitantes": 292986,
+        "superficie": 109.1,
+        "capital": "Vigo",
+        "comarca": "Vigo",
+        "provincia": "Pontevedra",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/EscudoVigo.svg"
+    },
+    {
+        "nombre": "Vila de Cruces",
+        "habitantes": 5389,
+        "superficie": 155.0,
+        "capital": "Vila de Cruces",
+        "comarca": "O Deza",
+        "provincia": "Pontevedra",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Vila_de_Cruces_Escudo.svg"
+    },
+    {
+        "nombre": "Vilaboa",
+        "habitantes": 6023,
+        "superficie": 36.9,
+        "capital": "O Toural",
+        "comarca": "Pontevedra",
+        "provincia": "Pontevedra",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Escudo_de_Vilaboa.svg"
+    },
+    {
+        "nombre": "Vilagarcía",
+        "habitantes": 37479,
+        "superficie": 44.2,
+        "capital": "Vilagarcía de Arousa",
+        "comarca": "O Salnés",
+        "provincia": "Pontevedra",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Vilagarc%C3%ADa_de_Arousa.svg"
+    },
+    {
+        "nombre": "Vilalba",
+        "habitantes": 14354,
+        "superficie": 379.0,
+        "capital": "Vilalba",
+        "comarca": "A Terra Chá",
+        "provincia": "Lugo",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Coat_of_Arms_of_Vilalba_(Lugo).svg"
+    },
+    {
+        "nombre": "Vilamarín",
+        "habitantes": 1940,
+        "superficie": 56.1,
+        "capital": "Vilamarín",
+        "comarca": "Ourense",
+        "provincia": "Ourense",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Vilamar%C3%ADn.svg"
+    },
+    {
+        "nombre": "Vilamartín de Valdeorras",
+        "habitantes": 1771,
+        "superficie": 88.3,
+        "capital": "",
+        "comarca": "Valdeorras",
+        "provincia": "Ourense",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Escudo_de_Vilamart%C3%ADn_de_Valdeorras.svg"
+    },
+    {
+        "nombre": "Vilanova",
+        "habitantes": 10361,
+        "superficie": 33.7,
+        "capital": "",
+        "comarca": "O Salnés",
+        "provincia": "Pontevedra",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Vilanova_de_Arousa.svg"
+    },
+    {
+        "nombre": "Vilar de Barrio",
+        "habitantes": 1360,
+        "superficie": 106.7,
+        "capital": "",
+        "comarca": "A Limia",
+        "provincia": "Ourense",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Coat_of_Arms_of_Vilar_de_Barrio.svg"
+    },
+    {
+        "nombre": "Vilar de Santos",
+        "habitantes": 850,
+        "superficie": 20.7,
+        "capital": "",
+        "comarca": "A Limia",
+        "provincia": "Ourense",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Vilar_de_Santos.svg"
+    },
+    {
+        "nombre": "Vilardevós",
+        "habitantes": 1971,
+        "superficie": 152.1,
+        "capital": "",
+        "comarca": "Verín",
+        "provincia": "Ourense",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Escudo_de_Vilardevos.svg"
+    },
+    {
+        "nombre": "Vilariño de Conso",
+        "habitantes": 558,
+        "superficie": 200.2,
+        "capital": "",
+        "comarca": "Viana",
+        "provincia": "Ourense",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Escudo_de_Vilari%C3%B1o_de_Conso.svg"
+    },
+    {
+        "nombre": "Vilarmaior",
+        "habitantes": 1249,
+        "superficie": 30.3,
+        "capital": "",
+        "comarca": "Betanzos",
+        "provincia": "A Coruña",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Escudo_de_Vilarmaior_(1997).svg"
+    },
+    {
+        "nombre": "Vilasantar",
+        "habitantes": 1241,
+        "superficie": 59.2,
+        "capital": "Ru",
+        "comarca": "Betanzos",
+        "provincia": "A Coruña",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Escudo_de_Vilasantar.svg"
+    },
+    {
+        "nombre": "Vimianzo",
+        "habitantes": 7270,
+        "superficie": 187.4,
+        "capital": "",
+        "comarca": "A Terra de Soneira",
+        "provincia": "A Coruña",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Escudo_de_Vimianzo.svg"
+    },
+    {
+        "nombre": "Viveiro",
+        "habitantes": 15550,
+        "superficie": 109.3,
+        "capital": "",
+        "comarca": "A Mariña Occidental",
+        "provincia": "Lugo",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Coat_of_Arms_of_Viveiro.svg"
+    },
+    {
+        "nombre": "Xermade",
+        "habitantes": 1884,
+        "superficie": 166.6,
+        "capital": "",
+        "comarca": "A Terra Chá",
+        "provincia": "Lugo",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Coat_of_Arms_of_Xermade.svg"
+    },
+    {
+        "nombre": "Xinzo de Limia",
+        "habitantes": 9875,
+        "superficie": 132.7,
+        "capital": "",
+        "comarca": "A Limia",
+        "provincia": "Ourense",
+        "escudo": null
+    },
+    {
+        "nombre": "Xove",
+        "habitantes": 3342,
+        "superficie": 89.1,
+        "capital": "",
+        "comarca": "A Mariña Occidental",
+        "provincia": "Lugo",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Xove.svg"
+    },
+    {
+        "nombre": "Xunqueira de Ambía",
+        "habitantes": 1438,
+        "superficie": 60.2,
+        "capital": "",
+        "comarca": "Allariz - Maceda",
+        "provincia": "Ourense",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Escudo_de_Xunqueira_de_Ambia.svg"
+    },
+    {
+        "nombre": "Xunqueira de Espadanedo",
+        "habitantes": 756,
+        "superficie": 27.6,
+        "capital": "",
+        "comarca": "Allariz - Maceda",
+        "provincia": "Ourense",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Escudo_de_Xunqueira_de_Espada%C3%B1edo_(1997).svg"
+    },
+    {
+        "nombre": "Zas",
+        "habitantes": 4671,
+        "superficie": 133.2,
+        "capital": "",
+        "comarca": "A Terra de Soneira",
+        "provincia": "A Coruña",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Escudo_de_Zas.svg"
+    }
+]
