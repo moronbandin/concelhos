@@ -11,6 +11,20 @@ function normalizeString(str) {
     return str.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase().replace(/^(o\s|a\s)/, '');
 }
 
+// Función para cargar los estilos CSS dinámicamente según la elección del usuario
+function loadDifficulty(difficulty) {
+    const dynamicCss = document.getElementById('dynamic-css');
+    const dynamicSvgCss = document.getElementById('dynamic-svg-css');
+
+    if (difficulty === 'easy') {
+        dynamicCss.href = 'css/easy/styles.css';
+        dynamicSvgCss.href = 'css/easy/svg.css';
+    } else if (difficulty === 'hard') {
+        dynamicCss.href = 'css/hard/styles.css';
+        dynamicSvgCss.href = 'css/hard/svg.css';
+    }
+}
+
 // Cargar los datos de los concellos desde data.json
 fetch('data.json')
     .then(response => response.json())
@@ -219,7 +233,9 @@ svgMap.addEventListener('touchmove', function (event) {
         applyTransform();
     } else if (isPanning && event.touches.length === 1) {
         const translateX = initialTranslateX + (event.touches[0].clientX - startX);
-        const translateY = initialTranslateY + (event.touches[0].clientY - startY);
+        const translateY = initialTranslateY
+
+ + (event.touches[0].clientY - startY);
         
         svgMap.style.transform = `translate(${translateX}px, ${translateY}px) scale(${scale})`;
     }
@@ -316,3 +332,17 @@ function getDistance(touches) {
     return Math.sqrt(Math.pow(touches[0].clientX - touches[1].clientX, 2) +
                      Math.pow(touches[0].clientY - touches[1].clientY, 2));
 }
+
+// Cargar la dificultad por defecto (por ejemplo, fácil)
+window.addEventListener('load', function() {
+    loadDifficulty('easy');
+});
+
+// Escuchar los clics en los botones de dificultad
+document.getElementById('easy-btn').addEventListener('click', function() {
+    loadDifficulty('easy');
+});
+
+document.getElementById('hard-btn').addEventListener('click', function() {
+    loadDifficulty('hard');
+});

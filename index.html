@@ -8,18 +8,19 @@
     <link rel="icon" href="favicon.ico" type="image/x-icon">
     <!-- Bootstrap CSS desde CDN -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <!-- Archivo CSS personalizado -->
-    <link rel="stylesheet" href="css/styles.css">
-    <!-- Archivo CSS del SVG -->
-    <link rel="stylesheet" href="css/svg.css">
+    <!-- CSS personalizado, que se cargará dinámicamente -->
+    <link id="dynamic-css" rel="stylesheet" href="css/easy/styles.css">
+    <link id="dynamic-svg-css" rel="stylesheet" href="css/easy/svg.css">
 </head>
 <body>
 
+    <div id="difficulty-container">
+        <button id="easy-btn" class="btn btn-outline-primary" >Con fronteiras</button>
+        <button id="hard-btn" class="btn btn-outline-secondary">Sen fronteiras</button>
+    </div>
+
     <div id="mapa-container">
-        <!-- Cargar el nuevo SVG limpio -->
-        <svg id="svg-map" viewBox="0 0 800 600">
-            <!-- Aquí puedes insertar el contenido del archivo svg_cleaned.svg -->
-        </svg>
+        <svg id="svg-map" viewBox="0 0 800 600"></svg>
     </div>
 
     <div id="search-container">
