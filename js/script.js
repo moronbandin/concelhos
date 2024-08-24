@@ -252,7 +252,7 @@ svgMap.addEventListener('touchend', function (event) {
 });
 
 // Cargar el mapa SVG e inicializar
-fetch('svg/map_cleaned.svg')
+fetch('svg/compare/galiza.svg')
     .then(response => response.text())
     .then(data => {
         svgMap.innerHTML = data;

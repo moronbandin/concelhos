@@ -14,8 +14,8 @@
 }
 
 .svg-incorrect {
-    fill: #ebecec;           /* Color de relleno por defecto */
-    stroke: #ebecec;         /* Color del borde por defecto */
+    fill: #ffffff;           /* Color de relleno por defecto */
+    stroke: #696969;         /* Color del borde por defecto */
     stroke-width: 2150.964;         /* Ancho del borde por defecto */
     stroke-opacity: 1;       /* Opacidad del borde */
 }
