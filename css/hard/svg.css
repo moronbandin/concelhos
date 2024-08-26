@@ -1,7 +1,6 @@
 /* svg.css */
 
 /* Estilos predeterminados para la apariencia original del mapa */
-
 #mapa-container {
     position: absolute;
     top: 0;
@@ -13,13 +12,22 @@
     touch-action: none;
 }
 
+/* Estilos para los concellos no seleccionados */
 .svg-incorrect {
     fill: #ffffff;           /* Color de relleno por defecto */
     stroke: #696969;         /* Color del borde por defecto */
-    stroke-width: 2150.964;         /* Ancho del borde por defecto */
+    stroke-width: 0.9;  /* Ancho del borde por defecto */
     stroke-opacity: 1;       /* Opacidad del borde */
+    stroke-linejoin: round;  /* Forma de las uniones de las líneas (redondeadas) */
+    stroke-linecap: round;   /* Forma de los extremos de las líneas (redondeadas) */
 }
 
+/* Estilos para los concellos seleccionados */
 .selected {
-    fill: #e6a545 !important; /* Cambia esto al color que deseas para el relleno de los concellos seleccionados */
+    fill: #6da4d8 !important; /* Color de relleno para los concellos seleccionados */
+    stroke: #ebecec !important;          /* Color del borde cuando el concello está seleccionado */
+    stroke-width: 0.9 !important;   /* Ancho del borde para concellos seleccionados */
+    stroke-opacity: 1 !important;        /* Opacidad del borde */
+    stroke-linejoin: round !important;   /* Mantiene las uniones redondeadas */
+    stroke-linecap: round !important;    /* Mantiene los extremos redondeados */
 }

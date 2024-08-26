@@ -77,7 +77,7 @@ function addConcello(name) {
 
 function updateContadorConcellos() {
     const contador = document.getElementById('contador-concellos');
-    contador.innerText = `${visitedConcellos.size}/313`;
+    contador.innerText = `${visitedConcellos.size}/361`;
     updateConcelloList();
 }
 
